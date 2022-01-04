@@ -1,0 +1,10 @@
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\bin\Debug\04_LabelReArrange.exe.config
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\bin\Debug\04_LabelReArrange.exe
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\bin\Debug\04_LabelReArrange.pdb
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\obj\Debug\04_LabelReArrange.csprojAssemblyReference.cache
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\obj\Debug\_04_LabelReArrange.Form1.resources
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\obj\Debug\_04_LabelReArrange.Properties.Resources.resources
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\obj\Debug\04_LabelReArrange.csproj.GenerateResource.cache
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\obj\Debug\04_LabelReArrange.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\obj\Debug\04_LabelReArrange.exe
+I:\12A\C#REPO\04_LabelReArrange\04_LabelReArrange\obj\Debug\04_LabelReArrange.pdb

@@ -1,0 +1,14 @@
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.AssemblyInfoInputs.cache
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.AssemblyInfo.cs
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\bin\Debug\netcoreapp3.1\ComplexNumber.exe
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\bin\Debug\netcoreapp3.1\ComplexNumber.deps.json
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\bin\Debug\netcoreapp3.1\ComplexNumber.runtimeconfig.json
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\bin\Debug\netcoreapp3.1\ComplexNumber.runtimeconfig.dev.json
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\bin\Debug\netcoreapp3.1\ComplexNumber.dll
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\bin\Debug\netcoreapp3.1\ComplexNumber.pdb
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.dll
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.pdb
+D:\Iskola\Info\XII.A\C#\ComplexNumber\ComplexNumber\obj\Debug\netcoreapp3.1\ComplexNumber.genruntimeconfig.cache

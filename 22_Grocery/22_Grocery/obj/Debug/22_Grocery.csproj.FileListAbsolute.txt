@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\bin\Debug\22_Grocery.exe.config
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\bin\Debug\22_Grocery.exe
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\bin\Debug\22_Grocery.pdb
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\22_Grocery.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\22_Grocery.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\_22_Grocery.Form1.resources
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\_22_Grocery.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\22_Grocery.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\22_Grocery.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\22_Grocery.exe
+D:\Iskola\Info\XII.A\C#\22_Grocery\22_Grocery\obj\Debug\22_Grocery.pdb

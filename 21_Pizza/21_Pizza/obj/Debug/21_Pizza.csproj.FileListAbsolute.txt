@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\bin\Debug\21_Pizza.exe.config
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\bin\Debug\21_Pizza.exe
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\bin\Debug\21_Pizza.pdb
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\21_Pizza.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\21_Pizza.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\_21_Pizza.Form1.resources
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\_21_Pizza.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\21_Pizza.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\21_Pizza.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\21_Pizza.exe
+D:\Iskola\Info\XII.A\C#\21_Pizza\21_Pizza\obj\Debug\21_Pizza.pdb

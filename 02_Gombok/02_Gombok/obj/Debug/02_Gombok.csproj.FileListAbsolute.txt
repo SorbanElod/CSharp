@@ -1,0 +1,10 @@
+I:\12A\C#REPO\02_Gombok\02_Gombok\bin\Debug\02_Gombok.exe.config
+I:\12A\C#REPO\02_Gombok\02_Gombok\bin\Debug\02_Gombok.exe
+I:\12A\C#REPO\02_Gombok\02_Gombok\bin\Debug\02_Gombok.pdb
+I:\12A\C#REPO\02_Gombok\02_Gombok\obj\Debug\02_Gombok.csprojAssemblyReference.cache
+I:\12A\C#REPO\02_Gombok\02_Gombok\obj\Debug\_02_Gombok.GombokFrame.resources
+I:\12A\C#REPO\02_Gombok\02_Gombok\obj\Debug\_02_Gombok.Properties.Resources.resources
+I:\12A\C#REPO\02_Gombok\02_Gombok\obj\Debug\02_Gombok.csproj.GenerateResource.cache
+I:\12A\C#REPO\02_Gombok\02_Gombok\obj\Debug\02_Gombok.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\02_Gombok\02_Gombok\obj\Debug\02_Gombok.exe
+I:\12A\C#REPO\02_Gombok\02_Gombok\obj\Debug\02_Gombok.pdb

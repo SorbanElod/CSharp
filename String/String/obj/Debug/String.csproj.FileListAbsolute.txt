@@ -1,0 +1,7 @@
+I:\12A\C#REPO\String\String\obj\Debug\String.csprojAssemblyReference.cache
+I:\12A\C#REPO\String\String\obj\Debug\String.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\String\String\bin\Debug\String.exe.config
+I:\12A\C#REPO\String\String\bin\Debug\String.exe
+I:\12A\C#REPO\String\String\bin\Debug\String.pdb
+I:\12A\C#REPO\String\String\obj\Debug\String.exe
+I:\12A\C#REPO\String\String\obj\Debug\String.pdb

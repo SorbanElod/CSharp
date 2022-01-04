@@ -1,0 +1,10 @@
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\bin\Debug\08_MoveTheBox.exe.config
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\bin\Debug\08_MoveTheBox.exe
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\bin\Debug\08_MoveTheBox.pdb
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\obj\Debug\08_MoveTheBox.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\obj\Debug\_08_MoveTheBox.Form1.resources
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\obj\Debug\_08_MoveTheBox.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\obj\Debug\08_MoveTheBox.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\obj\Debug\08_MoveTheBox.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\obj\Debug\08_MoveTheBox.exe
+D:\Iskola\Info\XII.A\C#\08_MoveTheBox\08_MoveTheBox\obj\Debug\08_MoveTheBox.pdb

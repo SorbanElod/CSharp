@@ -1,0 +1,10 @@
+I:\12A\C#REPO\01_Frame\01_Frame\bin\Debug\01_Frame.exe.config
+I:\12A\C#REPO\01_Frame\01_Frame\bin\Debug\01_Frame.exe
+I:\12A\C#REPO\01_Frame\01_Frame\bin\Debug\01_Frame.pdb
+I:\12A\C#REPO\01_Frame\01_Frame\obj\Debug\01_Frame.csprojAssemblyReference.cache
+I:\12A\C#REPO\01_Frame\01_Frame\obj\Debug\_01_Frame.Form1.resources
+I:\12A\C#REPO\01_Frame\01_Frame\obj\Debug\_01_Frame.Properties.Resources.resources
+I:\12A\C#REPO\01_Frame\01_Frame\obj\Debug\01_Frame.csproj.GenerateResource.cache
+I:\12A\C#REPO\01_Frame\01_Frame\obj\Debug\01_Frame.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\01_Frame\01_Frame\obj\Debug\01_Frame.exe
+I:\12A\C#REPO\01_Frame\01_Frame\obj\Debug\01_Frame.pdb

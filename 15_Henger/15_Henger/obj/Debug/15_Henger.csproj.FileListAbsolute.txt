@@ -1,0 +1,10 @@
+I:\12A\C#REPO\15_Henger\15_Henger\bin\Debug\15_Henger.exe.config
+I:\12A\C#REPO\15_Henger\15_Henger\bin\Debug\15_Henger.exe
+I:\12A\C#REPO\15_Henger\15_Henger\bin\Debug\15_Henger.pdb
+I:\12A\C#REPO\15_Henger\15_Henger\obj\Debug\15_Henger.csprojAssemblyReference.cache
+I:\12A\C#REPO\15_Henger\15_Henger\obj\Debug\_15_Henger.Form1.resources
+I:\12A\C#REPO\15_Henger\15_Henger\obj\Debug\_15_Henger.Properties.Resources.resources
+I:\12A\C#REPO\15_Henger\15_Henger\obj\Debug\15_Henger.csproj.GenerateResource.cache
+I:\12A\C#REPO\15_Henger\15_Henger\obj\Debug\15_Henger.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\15_Henger\15_Henger\obj\Debug\15_Henger.exe
+I:\12A\C#REPO\15_Henger\15_Henger\obj\Debug\15_Henger.pdb

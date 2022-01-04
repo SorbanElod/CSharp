@@ -1,0 +1,10 @@
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\bin\Debug\05_VisibleUnvisible.exe.config
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\bin\Debug\05_VisibleUnvisible.exe
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\bin\Debug\05_VisibleUnvisible.pdb
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\obj\Debug\05_VisibleUnvisible.csprojAssemblyReference.cache
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\obj\Debug\_05_VisibleUnvisible.Form1.resources
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\obj\Debug\_05_VisibleUnvisible.Properties.Resources.resources
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\obj\Debug\05_VisibleUnvisible.csproj.GenerateResource.cache
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\obj\Debug\05_VisibleUnvisible.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\obj\Debug\05_VisibleUnvisible.exe
+I:\12A\C#REPO\05_VisibleUnvisible\05_VisibleUnvisible\obj\Debug\05_VisibleUnvisible.pdb

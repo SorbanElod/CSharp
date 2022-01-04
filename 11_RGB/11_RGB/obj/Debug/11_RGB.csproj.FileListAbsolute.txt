@@ -1,0 +1,10 @@
+I:\12A\C#REPO\11_RGB\11_RGB\bin\Debug\11_RGB.exe.config
+I:\12A\C#REPO\11_RGB\11_RGB\bin\Debug\11_RGB.exe
+I:\12A\C#REPO\11_RGB\11_RGB\bin\Debug\11_RGB.pdb
+I:\12A\C#REPO\11_RGB\11_RGB\obj\Debug\11_RGB.csprojAssemblyReference.cache
+I:\12A\C#REPO\11_RGB\11_RGB\obj\Debug\_11_RGB.Form1.resources
+I:\12A\C#REPO\11_RGB\11_RGB\obj\Debug\_11_RGB.Properties.Resources.resources
+I:\12A\C#REPO\11_RGB\11_RGB\obj\Debug\11_RGB.csproj.GenerateResource.cache
+I:\12A\C#REPO\11_RGB\11_RGB\obj\Debug\11_RGB.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\11_RGB\11_RGB\obj\Debug\11_RGB.exe
+I:\12A\C#REPO\11_RGB\11_RGB\obj\Debug\11_RGB.pdb

@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\bin\Debug\23_TextFormat.exe.config
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\bin\Debug\23_TextFormat.exe
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\bin\Debug\23_TextFormat.pdb
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\23_TextFormat.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\23_TextFormat.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\_23_TextFormat.Form1.resources
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\_23_TextFormat.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\23_TextFormat.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\23_TextFormat.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\23_TextFormat.exe
+D:\Iskola\Info\XII.A\C#\23_TextFormat\23_TextFormat\obj\Debug\23_TextFormat.pdb

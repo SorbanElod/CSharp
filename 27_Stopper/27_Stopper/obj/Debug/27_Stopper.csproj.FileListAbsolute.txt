@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\bin\Debug\27_Stopper.exe.config
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\bin\Debug\27_Stopper.exe
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\bin\Debug\27_Stopper.pdb
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\27_Stopper.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\27_Stopper.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\_27_Stopper.Form1.resources
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\_27_Stopper.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\27_Stopper.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\27_Stopper.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\27_Stopper.exe
+D:\Iskola\Info\XII.A\C#\27_Stopper\27_Stopper\obj\Debug\27_Stopper.pdb

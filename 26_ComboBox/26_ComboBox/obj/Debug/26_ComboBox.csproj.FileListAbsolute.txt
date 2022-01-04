@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\bin\Debug\26_ComboBox.exe.config
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\bin\Debug\26_ComboBox.exe
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\bin\Debug\26_ComboBox.pdb
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\26_ComboBox.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\26_ComboBox.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\_26_ComboBox.Form1.resources
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\_26_ComboBox.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\26_ComboBox.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\26_ComboBox.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\26_ComboBox.exe
+D:\Iskola\Info\XII.A\C#\26_ComboBox\26_ComboBox\obj\Debug\26_ComboBox.pdb

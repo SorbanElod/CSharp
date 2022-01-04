@@ -1,0 +1,10 @@
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\bin\Debug\03_JumpingButton.exe.config
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\bin\Debug\03_JumpingButton.exe
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\bin\Debug\03_JumpingButton.pdb
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\obj\Debug\03_JumpingButton.csprojAssemblyReference.cache
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\obj\Debug\_03_JumpingButton.Form1.resources
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\obj\Debug\_03_JumpingButton.Properties.Resources.resources
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\obj\Debug\03_JumpingButton.csproj.GenerateResource.cache
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\obj\Debug\03_JumpingButton.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\obj\Debug\03_JumpingButton.exe
+I:\12A\C#REPO\03_JumpingButton\03_JumpingButton\obj\Debug\03_JumpingButton.pdb

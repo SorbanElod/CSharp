@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\bin\Debug\25_Logic.exe.config
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\bin\Debug\25_Logic.exe
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\bin\Debug\25_Logic.pdb
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\25_Logic.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\25_Logic.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\_25_Logic.Form1.resources
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\_25_Logic.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\25_Logic.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\25_Logic.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\25_Logic.exe
+D:\Iskola\Info\XII.A\C#\25_Logic\25_Logic\obj\Debug\25_Logic.pdb

@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\bin\Debug\20_Coffee.exe.config
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\bin\Debug\20_Coffee.exe
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\bin\Debug\20_Coffee.pdb
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\20_Coffee.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\20_Coffee.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\_20_Coffee.Form1.resources
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\_20_Coffee.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\20_Coffee.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\20_Coffee.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\20_Coffee.exe
+D:\Iskola\Info\XII.A\C#\20_Coffee\20_Coffee\obj\Debug\20_Coffee.pdb

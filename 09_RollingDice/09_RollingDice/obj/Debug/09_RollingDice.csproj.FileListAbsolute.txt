@@ -1,0 +1,10 @@
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\bin\Debug\09_RollingDice.exe.config
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\bin\Debug\09_RollingDice.exe
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\bin\Debug\09_RollingDice.pdb
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\obj\Debug\09_RollingDice.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\obj\Debug\_09_RollingDice.Form1.resources
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\obj\Debug\_09_RollingDice.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\obj\Debug\09_RollingDice.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\obj\Debug\09_RollingDice.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\obj\Debug\09_RollingDice.exe
+D:\Iskola\Info\XII.A\C#\09_RollingDice\09_RollingDice\obj\Debug\09_RollingDice.pdb

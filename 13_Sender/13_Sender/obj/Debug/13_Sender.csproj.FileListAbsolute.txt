@@ -1,0 +1,10 @@
+I:\12A\C#REPO\13_Sender\13_Sender\bin\Debug\13_Sender.exe.config
+I:\12A\C#REPO\13_Sender\13_Sender\bin\Debug\13_Sender.exe
+I:\12A\C#REPO\13_Sender\13_Sender\bin\Debug\13_Sender.pdb
+I:\12A\C#REPO\13_Sender\13_Sender\obj\Debug\13_Sender.csprojAssemblyReference.cache
+I:\12A\C#REPO\13_Sender\13_Sender\obj\Debug\_13_Sender.Form1.resources
+I:\12A\C#REPO\13_Sender\13_Sender\obj\Debug\_13_Sender.Properties.Resources.resources
+I:\12A\C#REPO\13_Sender\13_Sender\obj\Debug\13_Sender.csproj.GenerateResource.cache
+I:\12A\C#REPO\13_Sender\13_Sender\obj\Debug\13_Sender.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\13_Sender\13_Sender\obj\Debug\13_Sender.exe
+I:\12A\C#REPO\13_Sender\13_Sender\obj\Debug\13_Sender.pdb

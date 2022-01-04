@@ -1,0 +1,52 @@
+01_Frame
+	ItsJustAFrame
+02_Gombok
+	Buttons
+	ActionListeners
+	Color Change (Random)
+03_JumpingButton
+	Mosuse Enter to an object ->> The object moves to a random location
+	Protected ->> You cannot press the button
+04_LabelReArrange
+	Arrange label
+	Dock a component
+	Get Click Location
+05_VisibleUnvisible
+	Set Label Visible or Unvisible
+	Disable or Enable Button
+06_Cursorposition
+	MousePosition.XY
+	Cursor.Position.XY
+	Bind Label To CursorPosition
+07_Resize
+	resize panel with buttons
+	center the panel
+08_MoveTheBox
+	MouseMove
+	LabelStaysInForm
+	Clientsize
+09_RollingDice
+	Random Number Generator
+	Write Number to Label
+10_PlusMinus
+	Change Number with buttons
+	write number to label
+	read number from label
+11_RGB
+	change number with HScrollBar
+	CHange Label BackColor
+	change label size with HScrollBar
+12_Paint
+	Sender
+	Change frame BackColor to button's BackColor
+13_Sender
+	get control's text and type with sender
+	get text from textbox
+	write it on label
+14_GuessTheNumber
+	generate random number
+	read text from textbox
+	Tell if you guessed the number
+15_Henger
+	MaskedTextBox
+	get height and

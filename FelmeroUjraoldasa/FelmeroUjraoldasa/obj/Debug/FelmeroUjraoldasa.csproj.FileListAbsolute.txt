@@ -1,0 +1,7 @@
+I:\12A\C#REPO\FelmeroUjraoldasa\FelmeroUjraoldasa\bin\Debug\FelmeroUjraoldasa.exe.config
+I:\12A\C#REPO\FelmeroUjraoldasa\FelmeroUjraoldasa\bin\Debug\FelmeroUjraoldasa.exe
+I:\12A\C#REPO\FelmeroUjraoldasa\FelmeroUjraoldasa\bin\Debug\FelmeroUjraoldasa.pdb
+I:\12A\C#REPO\FelmeroUjraoldasa\FelmeroUjraoldasa\obj\Debug\FelmeroUjraoldasa.csprojAssemblyReference.cache
+I:\12A\C#REPO\FelmeroUjraoldasa\FelmeroUjraoldasa\obj\Debug\FelmeroUjraoldasa.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\FelmeroUjraoldasa\FelmeroUjraoldasa\obj\Debug\FelmeroUjraoldasa.exe
+I:\12A\C#REPO\FelmeroUjraoldasa\FelmeroUjraoldasa\obj\Debug\FelmeroUjraoldasa.pdb

@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\bin\Debug\24_XO.exe.config
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\bin\Debug\24_XO.exe
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\bin\Debug\24_XO.pdb
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\24_XO.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\24_XO.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\_24_XO.Form1.resources
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\_24_XO.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\24_XO.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\24_XO.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\24_XO.exe
+D:\Iskola\Info\XII.A\C#\24_XO\24_XO\obj\Debug\24_XO.pdb

@@ -1,0 +1,10 @@
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\bin\Debug\16_RadioButton.exe.config
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\bin\Debug\16_RadioButton.exe
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\bin\Debug\16_RadioButton.pdb
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\obj\Debug\16_RadioButton.csprojAssemblyReference.cache
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\obj\Debug\_16_RadioButton.Form1.resources
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\obj\Debug\_16_RadioButton.Properties.Resources.resources
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\obj\Debug\16_RadioButton.csproj.GenerateResource.cache
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\obj\Debug\16_RadioButton.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\obj\Debug\16_RadioButton.exe
+I:\12A\C#REPO\16_RadioButton\16_RadioButton\obj\Debug\16_RadioButton.pdb

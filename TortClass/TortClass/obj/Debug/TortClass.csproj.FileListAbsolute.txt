@@ -1,0 +1,7 @@
+I:\12A\C#REPO\TortClass\TortClass\bin\Debug\TortClass.exe.config
+I:\12A\C#REPO\TortClass\TortClass\bin\Debug\TortClass.exe
+I:\12A\C#REPO\TortClass\TortClass\bin\Debug\TortClass.pdb
+I:\12A\C#REPO\TortClass\TortClass\obj\Debug\TortClass.csprojAssemblyReference.cache
+I:\12A\C#REPO\TortClass\TortClass\obj\Debug\TortClass.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\TortClass\TortClass\obj\Debug\TortClass.exe
+I:\12A\C#REPO\TortClass\TortClass\obj\Debug\TortClass.pdb

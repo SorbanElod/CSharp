@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\bin\Debug\18_Valasztogombok.exe.config
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\bin\Debug\18_Valasztogombok.exe
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\bin\Debug\18_Valasztogombok.pdb
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\18_Valasztogombok.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\18_Valasztogombok.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\_18_Valasztogombok.Form1.resources
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\_18_Valasztogombok.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\18_Valasztogombok.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\18_Valasztogombok.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\18_Valasztogombok.exe
+D:\Iskola\Info\XII.A\C#\18_Valasztogombok\18_Valasztogombok\obj\Debug\18_Valasztogombok.pdb

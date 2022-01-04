@@ -1,0 +1,10 @@
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\bin\Debug\10_PlusMinus.exe.config
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\bin\Debug\10_PlusMinus.exe
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\bin\Debug\10_PlusMinus.pdb
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\obj\Debug\10_PlusMinus.csprojAssemblyReference.cache
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\obj\Debug\_10_PlusMinus.Form1.resources
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\obj\Debug\_10_PlusMinus.Properties.Resources.resources
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\obj\Debug\10_PlusMinus.csproj.GenerateResource.cache
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\obj\Debug\10_PlusMinus.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\obj\Debug\10_PlusMinus.exe
+I:\12A\C#REPO\10_PlusMinus\10_PlusMinus\obj\Debug\10_PlusMinus.pdb

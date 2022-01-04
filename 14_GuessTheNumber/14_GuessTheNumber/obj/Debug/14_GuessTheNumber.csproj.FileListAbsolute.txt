@@ -1,0 +1,10 @@
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\obj\Debug\14_GuessTheNumber.csprojAssemblyReference.cache
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\bin\Debug\14_GuessTheNumber.exe.config
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\bin\Debug\14_GuessTheNumber.exe
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\bin\Debug\14_GuessTheNumber.pdb
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\obj\Debug\_14_GuessTheNumber.Form1.resources
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\obj\Debug\_14_GuessTheNumber.Properties.Resources.resources
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\obj\Debug\14_GuessTheNumber.csproj.GenerateResource.cache
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\obj\Debug\14_GuessTheNumber.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\obj\Debug\14_GuessTheNumber.exe
+I:\12A\C#REPO\14_GuessTheNumber\14_GuessTheNumber\obj\Debug\14_GuessTheNumber.pdb

@@ -1,0 +1,14 @@
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\bin\Debug\netcoreapp3.1\RandomGenerator.exe
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\bin\Debug\netcoreapp3.1\RandomGenerator.deps.json
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\bin\Debug\netcoreapp3.1\RandomGenerator.runtimeconfig.json
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\bin\Debug\netcoreapp3.1\RandomGenerator.runtimeconfig.dev.json
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\bin\Debug\netcoreapp3.1\RandomGenerator.dll
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\bin\Debug\netcoreapp3.1\RandomGenerator.pdb
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.AssemblyInfoInputs.cache
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.AssemblyInfo.cs
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.dll
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.pdb
+D:\Iskola\Info\XII.A\C#\RandomGenerator\RandomGenerator\obj\Debug\netcoreapp3.1\RandomGenerator.genruntimeconfig.cache

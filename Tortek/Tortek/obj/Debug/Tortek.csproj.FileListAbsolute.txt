@@ -1,0 +1,7 @@
+I:\12A\C#REPO\Tortek\Tortek\bin\Debug\Tortek.exe.config
+I:\12A\C#REPO\Tortek\Tortek\bin\Debug\Tortek.exe
+I:\12A\C#REPO\Tortek\Tortek\bin\Debug\Tortek.pdb
+I:\12A\C#REPO\Tortek\Tortek\obj\Debug\Tortek.csprojAssemblyReference.cache
+I:\12A\C#REPO\Tortek\Tortek\obj\Debug\Tortek.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\Tortek\Tortek\obj\Debug\Tortek.exe
+I:\12A\C#REPO\Tortek\Tortek\obj\Debug\Tortek.pdb

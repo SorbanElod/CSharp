@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\bin\Debug\07_Resize.exe.config
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\bin\Debug\07_Resize.exe
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\bin\Debug\07_Resize.pdb
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\07_Resize.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\_07_Resize.Form1.resources
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\_07_Resize.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\07_Resize.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\07_Resize.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\07_Resize.exe
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\07_Resize.pdb
+D:\Iskola\Info\XII.A\C#\07_Resize\07_Resize\obj\Debug\07_Resize.csproj.SuggestedBindingRedirects.cache

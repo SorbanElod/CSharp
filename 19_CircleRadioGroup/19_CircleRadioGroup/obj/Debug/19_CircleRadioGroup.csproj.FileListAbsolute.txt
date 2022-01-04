@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\bin\Debug\19_CircleRadioGroup.exe.config
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\bin\Debug\19_CircleRadioGroup.exe
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\bin\Debug\19_CircleRadioGroup.pdb
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\19_CircleRadioGroup.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\19_CircleRadioGroup.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\_19_CircleRadioGroup.Form1.resources
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\_19_CircleRadioGroup.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\19_CircleRadioGroup.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\19_CircleRadioGroup.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\19_CircleRadioGroup.exe
+D:\Iskola\Info\XII.A\C#\19_CircleRadioGroup\19_CircleRadioGroup\obj\Debug\19_CircleRadioGroup.pdb

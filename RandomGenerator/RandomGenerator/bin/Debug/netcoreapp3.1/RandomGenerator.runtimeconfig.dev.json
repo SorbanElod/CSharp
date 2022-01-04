@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Elod\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Elod\\.nuget\\packages"
+    ]
+  }
+}

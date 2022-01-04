@@ -1,0 +1,10 @@
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\bin\Debug\06_CursorPosition.exe.config
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\bin\Debug\06_CursorPosition.exe
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\bin\Debug\06_CursorPosition.pdb
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\obj\Debug\06_CursorPosition.csprojAssemblyReference.cache
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\obj\Debug\_06_CursorPosition.Form1.resources
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\obj\Debug\_06_CursorPosition.Properties.Resources.resources
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\obj\Debug\06_CursorPosition.csproj.GenerateResource.cache
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\obj\Debug\06_CursorPosition.csproj.CoreCompileInputs.cache
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\obj\Debug\06_CursorPosition.exe
+I:\12A\C#REPO\06_CursorPosition\06_CursorPosition\obj\Debug\06_CursorPosition.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "492cd28e-3024-493c-9b6a-69910884f7d9": {
+      "ProjectGuid": "492cd28e-3024-493c-9b6a-69910884f7d9",
+      "DisplayName": "09_RollingDice",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
