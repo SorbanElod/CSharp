@@ -85,7 +85,7 @@ namespace _20_Coffee
 		{
 			Refresh(sender, e);
 		}
-
+		//Uncheck everything
 		private void Clear()
 		{
 			foreach(Control a in groupBoxOthers.Controls)
