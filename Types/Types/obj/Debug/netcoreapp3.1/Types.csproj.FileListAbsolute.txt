@@ -1,0 +1,14 @@
+D:\Iskola\Info\XII.A\C#\Types\Types\bin\Debug\netcoreapp3.1\Types.exe
+D:\Iskola\Info\XII.A\C#\Types\Types\bin\Debug\netcoreapp3.1\Types.deps.json
+D:\Iskola\Info\XII.A\C#\Types\Types\bin\Debug\netcoreapp3.1\Types.runtimeconfig.json
+D:\Iskola\Info\XII.A\C#\Types\Types\bin\Debug\netcoreapp3.1\Types.runtimeconfig.dev.json
+D:\Iskola\Info\XII.A\C#\Types\Types\bin\Debug\netcoreapp3.1\Types.dll
+D:\Iskola\Info\XII.A\C#\Types\Types\bin\Debug\netcoreapp3.1\Types.pdb
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.GeneratedMSBuildEditorConfig.editorconfig
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.AssemblyInfoInputs.cache
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.AssemblyInfo.cs
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.dll
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.pdb
+D:\Iskola\Info\XII.A\C#\Types\Types\obj\Debug\netcoreapp3.1\Types.genruntimeconfig.cache
