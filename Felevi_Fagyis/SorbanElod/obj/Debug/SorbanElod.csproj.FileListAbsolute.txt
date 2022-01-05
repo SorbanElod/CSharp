@@ -1,0 +1,10 @@
+I:\SorbanElod\SorbanElod\bin\Debug\SorbanElod.exe.config
+I:\SorbanElod\SorbanElod\bin\Debug\SorbanElod.exe
+I:\SorbanElod\SorbanElod\bin\Debug\SorbanElod.pdb
+I:\SorbanElod\SorbanElod\obj\Debug\SorbanElod.csprojAssemblyReference.cache
+I:\SorbanElod\SorbanElod\obj\Debug\SorbanElod.Form1.resources
+I:\SorbanElod\SorbanElod\obj\Debug\SorbanElod.Properties.Resources.resources
+I:\SorbanElod\SorbanElod\obj\Debug\SorbanElod.csproj.GenerateResource.cache
+I:\SorbanElod\SorbanElod\obj\Debug\SorbanElod.csproj.CoreCompileInputs.cache
+I:\SorbanElod\SorbanElod\obj\Debug\SorbanElod.exe
+I:\SorbanElod\SorbanElod\obj\Debug\SorbanElod.pdb
