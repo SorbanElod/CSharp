@@ -37,6 +37,7 @@
 			this.button7 = new System.Windows.Forms.Button();
 			this.button8 = new System.Windows.Forms.Button();
 			this.button9 = new System.Windows.Forms.Button();
+			this.labelWin = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// button1
@@ -138,11 +139,21 @@
 			this.button9.UseVisualStyleBackColor = true;
 			this.button9.Click += new System.EventHandler(this.ButtonClikked);
 			// 
+			// labelWin
+			// 
+			this.labelWin.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F);
+			this.labelWin.Location = new System.Drawing.Point(48, 453);
+			this.labelWin.Name = "labelWin";
+			this.labelWin.Size = new System.Drawing.Size(392, 71);
+			this.labelWin.TabIndex = 9;
+			this.labelWin.DoubleClick += new System.EventHandler(this.labelWin_DoubleClick);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(482, 453);
+			this.ClientSize = new System.Drawing.Size(482, 553);
+			this.Controls.Add(this.labelWin);
 			this.Controls.Add(this.button9);
 			this.Controls.Add(this.button8);
 			this.Controls.Add(this.button7);
@@ -152,8 +163,8 @@
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
-			this.MaximumSize = new System.Drawing.Size(500, 500);
-			this.MinimumSize = new System.Drawing.Size(500, 500);
+			this.MaximumSize = new System.Drawing.Size(500, 600);
+			this.MinimumSize = new System.Drawing.Size(500, 600);
 			this.Name = "Form1";
 			this.Text = "XO";
 			this.Load += new System.EventHandler(this.Form1_Load);
@@ -172,6 +183,7 @@
 		private System.Windows.Forms.Button button7;
 		private System.Windows.Forms.Button button8;
 		private System.Windows.Forms.Button button9;
+		private System.Windows.Forms.Label labelWin;
 	}
 }
 
