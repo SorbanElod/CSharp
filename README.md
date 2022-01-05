@@ -6,7 +6,7 @@ Download the entire project folder, not just the .sln!
 Download process:
 
 
-CLick on the folder, you want to download
+Click on the folder, you want to download
 
 Copy the link
 
