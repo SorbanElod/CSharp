@@ -37,6 +37,7 @@ namespace _27_Stopper
 			if(started == true)
 			{
 				timer1.Stop();
+				stopTime = DateTime.Now;
 				buttonRestart.Text = "Continuee";
 				buttonMode.Text = "Null";
 				started = false;
@@ -47,6 +48,7 @@ namespace _27_Stopper
 				buttonRestart.Text = "Stop";
 				buttonMode.Text = "Laptime";
 				started = true;
+				startTime = startTime.AddMilliseconds((DateTime.Now - stopTime).TotalMilliseconds);
 			}
 		}
 
