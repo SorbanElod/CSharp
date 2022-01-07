@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\bin\Debug\28_Calculator.exe.config
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\bin\Debug\28_Calculator.exe
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\bin\Debug\28_Calculator.pdb
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\28_Calculator.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\28_Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\_28_Calculator.Form1.resources
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\_28_Calculator.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\28_Calculator.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\28_Calculator.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\28_Calculator.exe
+D:\Iskola\Info\XII.A\C#\28_Calculator\28_Calculator\obj\Debug\28_Calculator.pdb
