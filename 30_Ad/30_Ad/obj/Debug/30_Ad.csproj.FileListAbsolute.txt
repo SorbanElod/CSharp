@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\bin\Debug\30_Ad.exe.config
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\bin\Debug\30_Ad.exe
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\bin\Debug\30_Ad.pdb
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\30_Ad.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\30_Ad.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\_30_Ad.Form1.resources
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\_30_Ad.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\30_Ad.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\30_Ad.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\30_Ad.exe
+D:\Iskola\Info\XII.A\C#\30_Ad\30_Ad\obj\Debug\30_Ad.pdb
