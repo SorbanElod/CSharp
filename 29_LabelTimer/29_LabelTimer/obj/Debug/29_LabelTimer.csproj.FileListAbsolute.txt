@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\bin\Debug\29_LabelTimer.exe.config
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\bin\Debug\29_LabelTimer.exe
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\bin\Debug\29_LabelTimer.pdb
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\29_LabelTimer.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\29_LabelTimer.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\_29_LabelTimer.Form1.resources
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\_29_LabelTimer.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\29_LabelTimer.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\29_LabelTimer.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\29_LabelTimer.exe
+D:\Iskola\Info\XII.A\C#\29_LabelTimer\29_LabelTimer\obj\Debug\29_LabelTimer.pdb
