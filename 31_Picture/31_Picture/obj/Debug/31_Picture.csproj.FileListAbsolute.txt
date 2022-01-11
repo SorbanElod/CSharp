@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\bin\Debug\31_Picture.exe.config
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\bin\Debug\31_Picture.exe
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\bin\Debug\31_Picture.pdb
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\31_Picture.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\31_Picture.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\_31_Picture.Form1.resources
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\_31_Picture.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\31_Picture.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\31_Picture.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\31_Picture.exe
+D:\Iskola\Info\XII.A\C#\31_Picture\31_Picture\obj\Debug\31_Picture.pdb
