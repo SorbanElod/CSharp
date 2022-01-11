@@ -17,9 +17,12 @@ namespace _30_Ad
 			InitializeComponent();
 		}
 
+		private int i = 0;
+		private char ch;
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			timer1.Interval = 1;
+			label1.Text = "This is a very very long text      ";
+			timer1.Interval = 100;
 			timer1.Start();
 		}
 		private void colour()
@@ -32,6 +35,9 @@ namespace _30_Ad
 		private void timer1_Tick(object sender, EventArgs e)
 		{
 			colour();
+			ch = label1.Text[0];
+			label1.Text = label1.Text.Substring(1);
+			label1.Text += ch;
 		}
 	}
 }
