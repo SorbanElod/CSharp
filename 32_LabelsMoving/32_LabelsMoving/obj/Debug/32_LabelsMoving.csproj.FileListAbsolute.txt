@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\bin\Debug\32_LabelsMoving.exe.config
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\bin\Debug\32_LabelsMoving.exe
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\bin\Debug\32_LabelsMoving.pdb
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\32_LabelsMoving.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\32_LabelsMoving.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\_32_LabelsMoving.Form1.resources
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\_32_LabelsMoving.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\32_LabelsMoving.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\32_LabelsMoving.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\32_LabelsMoving.exe
+D:\Iskola\Info\XII.A\C#\32_LabelsMoving\32_LabelsMoving\obj\Debug\32_LabelsMoving.pdb
