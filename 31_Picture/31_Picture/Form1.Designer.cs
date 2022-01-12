@@ -44,9 +44,12 @@
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
 			// timer1
 			// 
+			this.timer1.Enabled = true;
+			this.timer1.Interval = 1;
 			this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
 			// 
 			// Form1
@@ -56,7 +59,7 @@
 			this.ClientSize = new System.Drawing.Size(782, 553);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Text = "Catch The Dog";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
