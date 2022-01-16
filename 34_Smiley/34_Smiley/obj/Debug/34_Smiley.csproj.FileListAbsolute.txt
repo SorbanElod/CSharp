@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\34_Smiley.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\34_Smiley.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\_34_Smiley.Form1.resources
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\34_Smiley.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\bin\Debug\34_Smiley.exe.config
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\bin\Debug\34_Smiley.exe
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\bin\Debug\34_Smiley.pdb
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\_34_Smiley.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\34_Smiley.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\34_Smiley.exe
+D:\Iskola\Info\XII.A\C#\34_Smiley\34_Smiley\obj\Debug\34_Smiley.pdb

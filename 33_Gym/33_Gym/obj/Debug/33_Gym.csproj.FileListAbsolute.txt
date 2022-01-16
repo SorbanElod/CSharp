@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\bin\Debug\33_Gym.exe.config
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\bin\Debug\33_Gym.exe
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\bin\Debug\33_Gym.pdb
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\33_Gym.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\33_Gym.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\_33_Gym.Form1.resources
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\_33_Gym.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\33_Gym.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\33_Gym.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\33_Gym.exe
+D:\Iskola\Info\XII.A\C#\33_Gym\33_Gym\obj\Debug\33_Gym.pdb
