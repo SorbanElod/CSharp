@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\35_EarthWithoutImageList.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\35_EarthWithoutImageList.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\_35_EarthWithoutImageList.Form1.resources
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\_35_EarthWithoutImageList.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\35_EarthWithoutImageList.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\35_EarthWithoutImageList.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\bin\Debug\35_EarthWithoutImageList.exe.config
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\bin\Debug\35_EarthWithoutImageList.exe
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\bin\Debug\35_EarthWithoutImageList.pdb
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\35_EarthWithoutImageList.exe
+D:\Iskola\Info\XII.A\C#\35_EarthWithoutImageList\35_EarthWithoutImageList\obj\Debug\35_EarthWithoutImageList.pdb
