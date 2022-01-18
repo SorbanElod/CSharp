@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\bin\Debug\37_EarthImgList.exe.config
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\bin\Debug\37_EarthImgList.exe
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\bin\Debug\37_EarthImgList.pdb
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\37_EarthImgList.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\37_EarthImgList.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\_37_EarthImgList.Form1.resources
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\_37_EarthImgList.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\37_EarthImgList.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\37_EarthImgList.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\37_EarthImgList.exe
+D:\Iskola\Info\XII.A\C#\37_EarthImgList\37_EarthImgList\obj\Debug\37_EarthImgList.pdb
