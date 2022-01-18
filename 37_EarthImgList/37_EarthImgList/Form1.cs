@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,9 +35,18 @@ namespace _37_EarthImgList
 			pictureBox1.Image = imageList1.Images[i++];
 		}
 
+		private string[] Names;
+		private int n;
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			pictureBox1.Image = imageList1.Images[1];
+			timer1.Interval = 1000;
+			Names = Directory.GetFiles("Pictures", "*.png");
+			n = Names.Count();
+			foreach(string s in Names)
+			{
+				imageList1.Images.Add(Image.FromFile(s));
+			}
+			pictureBox1.Image = imageList1.Images[0];
 		}
 	}
 }
