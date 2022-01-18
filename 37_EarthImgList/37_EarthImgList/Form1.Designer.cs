@@ -67,6 +67,7 @@
 			this.pictureBox1.Location = new System.Drawing.Point(96, 89);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(175, 166);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
@@ -89,6 +90,7 @@
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "Form1";
 			this.Text = "Earth";
+			this.Load += new System.EventHandler(this.Form1_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 

@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\bin\Debug\36_LabelRuntime.exe.config
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\bin\Debug\36_LabelRuntime.exe
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\bin\Debug\36_LabelRuntime.pdb
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\36_LabelRuntime.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\36_LabelRuntime.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\_36_LabelRuntime.Form1.resources
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\_36_LabelRuntime.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\36_LabelRuntime.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\36_LabelRuntime.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\36_LabelRuntime.exe
+D:\Iskola\Info\XII.A\C#\36_LabelRuntime\36_LabelRuntime\obj\Debug\36_LabelRuntime.pdb

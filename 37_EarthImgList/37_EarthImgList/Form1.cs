@@ -19,13 +19,24 @@ namespace _37_EarthImgList
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			timer1.Start();
+			timer1.Interval = 10;
+			timer1.Enabled = !timer1.Enabled;
+			if (timer1.Enabled == true)
+			{
+				button1.Text = "Stop";
+			}
+			else button1.Text = "Start";
 		}
 		private int i = 0;
 		private void timer1_Tick(object sender, EventArgs e)
 		{
 			i = i % 16;
 			pictureBox1.Image = imageList1.Images[i++];
+		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			pictureBox1.Image = imageList1.Images[1];
 		}
 	}
 }
