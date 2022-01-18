@@ -12,6 +12,7 @@ namespace _36_LabelRuntime
 {
 	public partial class Form1 : Form
 	{
+		Label label1;
 		public Form1()
 		{
 			InitializeComponent();
@@ -22,13 +23,16 @@ namespace _36_LabelRuntime
 		{
 			if (exists == false)
 			{
+				button1.Text = "Delete label";
 				Label label1 = new Label();
 				label1.Text = "Hello There!";
 				label1.BackColor = Color.DarkKhaki;
-				panel1.Controls.Add(label1);
+				label1.AutoSize = true;
+				label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
 				label1.Top = generate.Next(panel1.Height - label1.Height);
 				label1.Left = generate.Next(panel1.Width - label1.Width);
-				button1.Text = "Delete label";
+				label1.Click += new System.EventHandler(this.label1_Click);
+				panel1.Controls.Add(label1);
 				
 				exists = true;
 			}
@@ -38,6 +42,11 @@ namespace _36_LabelRuntime
 				panel1.Controls.Clear();
 				exists = false;
 			}
+		}
+
+		private void label1_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("I'm bad in F1","Fact");
 		}
 	}
 }
