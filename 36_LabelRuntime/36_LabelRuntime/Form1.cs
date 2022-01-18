@@ -27,7 +27,8 @@ namespace _36_LabelRuntime
 				Label label1 = new Label();
 				label1.Text = "Hello There!";
 				label1.BackColor = Color.DarkKhaki;
-				label1.AutoSize = true;
+				label1.Width = 150;
+				label1.Height = 30;
 				label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
 				label1.Top = generate.Next(panel1.Height - label1.Height);
 				label1.Left = generate.Next(panel1.Width - label1.Width);
