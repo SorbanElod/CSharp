@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\bin\Debug\38_ButtonGenerate.exe.config
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\bin\Debug\38_ButtonGenerate.exe
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\bin\Debug\38_ButtonGenerate.pdb
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\38_ButtonGenerate.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\38_ButtonGenerate.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\_38_ButtonGenerate.Form1.resources
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\_38_ButtonGenerate.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\38_ButtonGenerate.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\38_ButtonGenerate.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\38_ButtonGenerate.exe
+D:\Iskola\Info\XII.A\C#\38_ButtonGenerate\38_ButtonGenerate\obj\Debug\38_ButtonGenerate.pdb
