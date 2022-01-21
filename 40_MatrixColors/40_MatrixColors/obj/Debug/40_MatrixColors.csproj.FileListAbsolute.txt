@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\bin\Debug\40_MatrixColors.exe.config
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\bin\Debug\40_MatrixColors.exe
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\bin\Debug\40_MatrixColors.pdb
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\40_MatrixColors.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\40_MatrixColors.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\_40_MatrixColors.Form1.resources
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\_40_MatrixColors.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\40_MatrixColors.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\40_MatrixColors.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\40_MatrixColors.exe
+D:\Iskola\Info\XII.A\C#\40_MatrixColors\40_MatrixColors\obj\Debug\40_MatrixColors.pdb
