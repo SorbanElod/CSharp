@@ -1,0 +1,10 @@
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\bin\Debug\39_DividePanel.exe.config
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\bin\Debug\39_DividePanel.exe
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\bin\Debug\39_DividePanel.pdb
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\obj\Debug\39_DividePanel.csprojAssemblyReference.cache
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\obj\Debug\_39_DividePanel.Form1.resources
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\obj\Debug\_39_DividePanel.Properties.Resources.resources
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\obj\Debug\39_DividePanel.csproj.GenerateResource.cache
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\obj\Debug\39_DividePanel.csproj.CoreCompileInputs.cache
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\obj\Debug\39_DividePanel.exe
+C:\Users\usr70.LABOR\source\repos\39_DividePanel\39_DividePanel\obj\Debug\39_DividePanel.pdb
