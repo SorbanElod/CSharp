@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\bin\Debug\41_PuzzleSort.exe.config
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\bin\Debug\41_PuzzleSort.exe
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\bin\Debug\41_PuzzleSort.pdb
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\41_PuzzleSort.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\41_PuzzleSort.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\_41_PuzzleSort.Form1.resources
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\_41_PuzzleSort.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\41_PuzzleSort.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\41_PuzzleSort.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\41_PuzzleSort.exe
+D:\Iskola\Info\XII.A\C#\41_PuzzleSort\41_PuzzleSort\obj\Debug\41_PuzzleSort.pdb
