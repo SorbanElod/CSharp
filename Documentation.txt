@@ -73,5 +73,33 @@
 23_TextFormat
 	Format text
 	Change font
-24_
+24_XO
+	2 player tictactoe
+	Using [n,n] matrix as backend
+	checks if game finished
+	announces the winner
+25_Logic
+	Logical calculator
+	switch-case solution
+	Combobox
+	Available operations:
+		Not P
+		P And Q
+		P Or Q
+		P XOr Q
+		P NAnd Q
+		P NOr Q
+26_ComboBox
+	Upload Combobox with entries from code
+	Delete all or selected entries
+	Write entry name to label
+27_Stopper
+	Basic Stopper
+	use of Timer
+	DateTime.Now
+	Substring()
+28_Calculator
+	Not Finished
+	Teachers Solution Included in comments
+	
 37 EarthImageList
