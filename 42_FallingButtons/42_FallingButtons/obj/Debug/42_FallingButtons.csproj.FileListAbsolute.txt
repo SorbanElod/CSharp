@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\bin\Debug\42_FallingButtons.exe.config
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\bin\Debug\42_FallingButtons.exe
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\bin\Debug\42_FallingButtons.pdb
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\42_FallingButtons.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\42_FallingButtons.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\_42_FallingButtons.Form1.resources
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\_42_FallingButtons.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\42_FallingButtons.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\42_FallingButtons.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\42_FallingButtons.exe
+D:\Iskola\Info\XII.A\C#\42_FallingButtons\42_FallingButtons\obj\Debug\42_FallingButtons.pdb
