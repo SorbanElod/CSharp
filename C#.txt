@@ -50,4 +50,26 @@
 15_Henger
 	MaskedTextBox
 	get height and
+16_RadioButton
+	Sender
+	Gets the radiobutton's color and sets the background to that color	
+17_BusTicket
+	Calculates the ticket price from destination, calculates discounts
+	gets tha base price from tags
+18_Valasztogombok
+	Changes the labels back and font colors with senders and buttons
+19_CircleRadioGroup
+	Calculate a circle's area
+	Groupbox
+	Format String
+20_Coffee
+	Coffee automat
+	Get prices from tags
+	Calculate price
+21_Pizza
+	The same as 20
+22_Grocery
+	Same as 20/21 but you can choose product type
+23_TextFormat
+	Format textChange font
 37 EarthImageList
