@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\bin\Debug\44_ReplaceBoxes.exe.config
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\bin\Debug\44_ReplaceBoxes.exe
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\bin\Debug\44_ReplaceBoxes.pdb
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\44_ReplaceBoxes.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\44_ReplaceBoxes.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\_44_ReplaceBoxes.Form1.resources
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\_44_ReplaceBoxes.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\44_ReplaceBoxes.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\44_ReplaceBoxes.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\44_ReplaceBoxes.exe
+D:\Iskola\Info\XII.A\C#\44_ReplaceBoxes\44_ReplaceBoxes\obj\Debug\44_ReplaceBoxes.pdb

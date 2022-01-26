@@ -28,11 +28,13 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
 			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
 			this.buttonStop = new System.Windows.Forms.Button();
 			this.buttonStart = new System.Windows.Forms.Button();
 			this.buttonExit = new System.Windows.Forms.Button();
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -53,6 +55,7 @@
 			this.buttonStop.TabIndex = 1;
 			this.buttonStop.Text = "Stop";
 			this.buttonStop.UseVisualStyleBackColor = true;
+			this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click);
 			// 
 			// buttonStart
 			// 
@@ -63,6 +66,7 @@
 			this.buttonStart.TabIndex = 2;
 			this.buttonStart.Text = "Start";
 			this.buttonStart.UseVisualStyleBackColor = true;
+			this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
 			// 
 			// buttonExit
 			// 
@@ -73,6 +77,7 @@
 			this.buttonExit.TabIndex = 3;
 			this.buttonExit.Text = "Exit";
 			this.buttonExit.UseVisualStyleBackColor = true;
+			this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
 			// 
 			// panel1
 			// 
@@ -93,6 +98,7 @@
 			this.Controls.Add(this.numericUpDown1);
 			this.Name = "Form1";
 			this.Text = "Form1";
+			this.Load += new System.EventHandler(this.Form1_Load);
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
 			this.ResumeLayout(false);
 
@@ -105,6 +111,7 @@
 		private System.Windows.Forms.Button buttonStart;
 		private System.Windows.Forms.Button buttonExit;
 		private System.Windows.Forms.Panel panel1;
+		private System.Windows.Forms.Timer timer1;
 	}
 }
 
