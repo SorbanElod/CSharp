@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\bin\Debug\43_MultiplaeFallingButtons.exe.config
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\bin\Debug\43_MultiplaeFallingButtons.exe
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\bin\Debug\43_MultiplaeFallingButtons.pdb
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\43_MultiplaeFallingButtons.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\43_MultiplaeFallingButtons.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\_43_MultiplaeFallingButtons.Form1.resources
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\_43_MultiplaeFallingButtons.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\43_MultiplaeFallingButtons.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\43_MultiplaeFallingButtons.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\43_MultiplaeFallingButtons.exe
+D:\Iskola\Info\XII.A\C#\43_MultiplaeFallingButtons\43_MultiplaeFallingButtons\obj\Debug\43_MultiplaeFallingButtons.pdb
