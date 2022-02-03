@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\bin\Debug\45_MatrixBoxes.exe.config
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\bin\Debug\45_MatrixBoxes.exe
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\bin\Debug\45_MatrixBoxes.pdb
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\45_MatrixBoxes.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\45_MatrixBoxes.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\_45_MatrixBoxes.Form1.resources
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\_45_MatrixBoxes.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\45_MatrixBoxes.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\45_MatrixBoxes.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\45_MatrixBoxes.exe
+D:\Iskola\Info\XII.A\C#\45_MatrixBoxes\45_MatrixBoxes\obj\Debug\45_MatrixBoxes.pdb

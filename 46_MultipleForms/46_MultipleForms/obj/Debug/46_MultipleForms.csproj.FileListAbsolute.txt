@@ -1,0 +1,12 @@
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\bin\Debug\46_MultipleForms.exe.config
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\bin\Debug\46_MultipleForms.exe
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\bin\Debug\46_MultipleForms.pdb
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\46_MultipleForms.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\46_MultipleForms.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\_46_MultipleForms.Form1.resources
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\_46_MultipleForms.Form2.resources
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\_46_MultipleForms.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\46_MultipleForms.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\46_MultipleForms.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\46_MultipleForms.exe
+D:\Iskola\Info\XII.A\C#\46_MultipleForms\46_MultipleForms\obj\Debug\46_MultipleForms.pdb

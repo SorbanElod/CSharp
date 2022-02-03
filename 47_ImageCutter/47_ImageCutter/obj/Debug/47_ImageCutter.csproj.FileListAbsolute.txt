@@ -1,0 +1,12 @@
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\47_ImageCutter.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\47_ImageCutter.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\_47_ImageCutter.Form1.resources
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\_47_ImageCutter.Form2.resources
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\_47_ImageCutter.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\47_ImageCutter.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\47_ImageCutter.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\bin\Debug\47_ImageCutter.exe.config
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\bin\Debug\47_ImageCutter.exe
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\bin\Debug\47_ImageCutter.pdb
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\47_ImageCutter.exe
+D:\Iskola\Info\XII.A\C#\47_ImageCutter\47_ImageCutter\obj\Debug\47_ImageCutter.pdb
