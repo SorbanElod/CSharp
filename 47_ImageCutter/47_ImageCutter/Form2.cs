@@ -26,7 +26,7 @@ namespace _47_ImageCutter
 		{
 			MessageBox.Show(Form1.n.ToString(), "now that's something");
 			clicks = 1;
-			imgPic = Image.FromFile("Koala.jpg");
+			imgPic = Image.FromFile("Moka.jpg");
 			bitPic = new Bitmap(imgPic, panel1.Width, panel1.Height);
 			for (int i = 0; i < Form1.n; i++)
 			{

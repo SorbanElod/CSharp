@@ -1,0 +1,12 @@
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\bin\Debug\48_Menu.exe.config
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\bin\Debug\48_Menu.exe
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\bin\Debug\48_Menu.pdb
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\48_Menu.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\48_Menu.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\_48_Menu.Form1.resources
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\_48_Menu.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\48_Menu.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\48_Menu.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\48_Menu.exe
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\48_Menu.pdb
+D:\Iskola\Info\XII.A\C#\48_Menu\48_Menu\obj\Debug\_48_Menu.Help.resources
