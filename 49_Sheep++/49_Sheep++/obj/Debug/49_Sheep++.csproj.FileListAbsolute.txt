@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\bin\Debug\49_Sheep++.exe.config
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\bin\Debug\49_Sheep++.exe
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\bin\Debug\49_Sheep++.pdb
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\49_Sheep++.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\49_Sheep++.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\_49_Sheep__.Form1.resources
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\_49_Sheep__.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\49_Sheep++.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\49_Sheep++.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\49_Sheep++.exe
+D:\Iskola\Info\XII.A\C#\49_Sheep++\49_Sheep++\obj\Debug\49_Sheep++.pdb
