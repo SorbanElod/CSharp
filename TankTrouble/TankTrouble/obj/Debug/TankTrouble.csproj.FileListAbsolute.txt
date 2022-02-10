@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\bin\Debug\TankTrouble.exe.config
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\bin\Debug\TankTrouble.exe
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\bin\Debug\TankTrouble.pdb
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.TestPage.resources
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.exe
+D:\Iskola\Info\XII.A\C#\TankTrouble\TankTrouble\obj\Debug\TankTrouble.pdb
