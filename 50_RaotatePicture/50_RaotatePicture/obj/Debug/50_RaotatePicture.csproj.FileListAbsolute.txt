@@ -1,0 +1,10 @@
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\bin\Debug\50_RaotatePicture.exe.config
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\bin\Debug\50_RaotatePicture.exe
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\bin\Debug\50_RaotatePicture.pdb
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\obj\Debug\50_RaotatePicture.csprojAssemblyReference.cache
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\obj\Debug\_50_RaotatePicture.Form1.resources
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\obj\Debug\_50_RaotatePicture.Properties.Resources.resources
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\obj\Debug\50_RaotatePicture.csproj.GenerateResource.cache
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\obj\Debug\50_RaotatePicture.csproj.CoreCompileInputs.cache
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\obj\Debug\50_RaotatePicture.exe
+C:\Users\usr70.LABOR\source\repos\50_RaotatePicture\50_RaotatePicture\obj\Debug\50_RaotatePicture.pdb
