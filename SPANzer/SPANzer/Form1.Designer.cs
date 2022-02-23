@@ -30,6 +30,7 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			this.pControl = new System.Windows.Forms.Panel();
+			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.pCanvas = new System.Windows.Forms.PictureBox();
@@ -39,12 +40,22 @@
 			// 
 			// pControl
 			// 
+			this.pControl.Controls.Add(this.label2);
 			this.pControl.Controls.Add(this.label1);
 			this.pControl.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pControl.Location = new System.Drawing.Point(0, 350);
+			this.pControl.Location = new System.Drawing.Point(0, 703);
 			this.pControl.Name = "pControl";
-			this.pControl.Size = new System.Drawing.Size(800, 100);
+			this.pControl.Size = new System.Drawing.Size(1482, 100);
 			this.pControl.TabIndex = 0;
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Location = new System.Drawing.Point(65, 39);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(44, 16);
+			this.label2.TabIndex = 1;
+			this.label2.Text = "label2";
 			// 
 			// label1
 			// 
@@ -65,7 +76,7 @@
 			this.pCanvas.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pCanvas.Location = new System.Drawing.Point(0, 0);
 			this.pCanvas.Name = "pCanvas";
-			this.pCanvas.Size = new System.Drawing.Size(800, 350);
+			this.pCanvas.Size = new System.Drawing.Size(1482, 703);
 			this.pCanvas.TabIndex = 3;
 			this.pCanvas.TabStop = false;
 			this.pCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.pCanvas_Paint);
@@ -74,11 +85,16 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(1482, 803);
+			this.Size = new System.Drawing.Size(1500, 850);
 			this.Controls.Add(this.pCanvas);
 			this.Controls.Add(this.pControl);
 			this.DoubleBuffered = true;
+			this.MaximizeBox = false;
+			this.MaximumSize = new System.Drawing.Size(1500, 850);
+			this.MinimumSize = new System.Drawing.Size(1500, 850);
 			this.Name = "Form1";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "SPanzerKampfWagen";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
@@ -96,6 +112,7 @@
 		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.PictureBox pCanvas;
+		private System.Windows.Forms.Label label2;
 	}
 }
 

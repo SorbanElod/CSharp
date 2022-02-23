@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace SPANzer
 		{
 			InitializeComponent();
 		}
+		Walls Walls = new Walls();
 		bool tUp, tDown, tLeft, tRight;
 		int moveSpeed = 3;
 		float angle = 0f;
@@ -32,7 +34,9 @@ namespace SPANzer
 
 		private void pCanvas_Paint(object sender, PaintEventArgs e)
 		{
+
 			e.Graphics.DrawImage(img, tankCo.X,tankCo.Y,32,32);
+			Walls.DrawWalls(e.Graphics);
 		}
 		
 		private void timer1_Tick(object sender, EventArgs e)
@@ -48,6 +52,11 @@ namespace SPANzer
 			if (e.KeyCode == Keys.Right) tRight = true;
 			if (e.KeyCode == Keys.Down) tDown = true;
 			if (e.KeyCode == Keys.Up) tUp = true;
+		}
+
+		private void Form1_MouseClick(object sender, MouseEventArgs e)
+		{
+			label2.Text = MousePosition.X.ToString() + MousePosition.Y.ToString();
 		}
 
 		private void Form1_KeyUp(object sender, KeyEventArgs e)
