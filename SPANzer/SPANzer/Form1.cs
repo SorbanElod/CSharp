@@ -30,6 +30,10 @@ namespace SPANzer
 			OldImg = Image.FromFile("PanzerGut.png");
 			img = OldImg;
 			timer1.Enabled = true;
+			Walls.LT = new PointF(pCanvas.Left+5, pCanvas.Top+5);
+			Walls.LB = new PointF(pCanvas.Left+5,pCanvas.Bottom);
+			Walls.RB = new PointF(pCanvas.Right-5, pCanvas.Bottom);
+			Walls.RT = new PointF(pCanvas.Right-5,pCanvas.Top+5);
 		}
 
 		private void pCanvas_Paint(object sender, PaintEventArgs e)
@@ -44,6 +48,7 @@ namespace SPANzer
 			MoveTank();
 			pCanvas.Refresh();
 			label1.Text = (tankCo.X.ToString() + " " + tankCo.Y.ToString() + " " + angle.ToString());
+			//label2.Text = ;
 		}
 
 		private void Form1_KeyDown(object sender, KeyEventArgs e)

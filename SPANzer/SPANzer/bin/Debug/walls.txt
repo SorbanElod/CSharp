@@ -3,5 +3,4 @@
 # The order is START.X START.Y END.X END.Y
 # Separate them with simple spaces
 # Comment lines with the # symbol
-1 1 1800 1
 100 100 200 200
