@@ -1,6 +1,6 @@
 ﻿namespace SPANzer
 {
-	partial class Form1
+	partial class GameWindow
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -81,19 +81,18 @@
 			this.pCanvas.TabStop = false;
 			this.pCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.pCanvas_Paint);
 			// 
-			// Form1
+			// GameWindow
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1482, 803);
-			this.Size = new System.Drawing.Size(1500, 850);
 			this.Controls.Add(this.pCanvas);
 			this.Controls.Add(this.pControl);
 			this.DoubleBuffered = true;
 			this.MaximizeBox = false;
 			this.MaximumSize = new System.Drawing.Size(1500, 850);
 			this.MinimumSize = new System.Drawing.Size(1500, 850);
-			this.Name = "Form1";
+			this.Name = "GameWindow";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "SPanzerKampfWagen";
 			this.Load += new System.EventHandler(this.Form1_Load);

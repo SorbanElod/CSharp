@@ -15,6 +15,7 @@ namespace SPANzer
 		public static float WALL_THICKNESS => wALL_THICKNESS;
 		public PointF LT, RT, RB, LB;
 		public bool dr = false;
+		
 		public void Build()
 		{
 			allWalls.Add(new Brick(LT, RT));
@@ -24,7 +25,6 @@ namespace SPANzer
 			PointF st = new PointF();
 			PointF en = new PointF();
 			string str;
-			//Bitmap bmp;
 			StreamReader f = new StreamReader("walls.txt");
 			while (f.EndOfStream == false)
 			{
