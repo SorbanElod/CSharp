@@ -34,6 +34,7 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.pCanvas = new System.Windows.Forms.PictureBox();
+			this.timer2 = new System.Windows.Forms.Timer(this.components);
 			this.pControl.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pCanvas)).BeginInit();
 			this.SuspendLayout();
@@ -43,7 +44,7 @@
 			this.pControl.Controls.Add(this.label2);
 			this.pControl.Controls.Add(this.label1);
 			this.pControl.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.pControl.Location = new System.Drawing.Point(0, 703);
+			this.pControl.Location = new System.Drawing.Point(0, 683);
 			this.pControl.Name = "pControl";
 			this.pControl.Size = new System.Drawing.Size(1482, 100);
 			this.pControl.TabIndex = 0;
@@ -76,22 +77,26 @@
 			this.pCanvas.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.pCanvas.Location = new System.Drawing.Point(0, 0);
 			this.pCanvas.Name = "pCanvas";
-			this.pCanvas.Size = new System.Drawing.Size(1482, 703);
+			this.pCanvas.Size = new System.Drawing.Size(1482, 683);
 			this.pCanvas.TabIndex = 3;
 			this.pCanvas.TabStop = false;
 			this.pCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.pCanvas_Paint);
+			// 
+			// timer2
+			// 
+			this.timer2.Interval = 1;
+			this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
 			// 
 			// GameWindow
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1482, 803);
+			this.ClientSize = new System.Drawing.Size(1482, 783);
 			this.Controls.Add(this.pCanvas);
 			this.Controls.Add(this.pControl);
 			this.DoubleBuffered = true;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.MaximizeBox = false;
-			this.MaximumSize = new System.Drawing.Size(1500, 850);
-			this.MinimumSize = new System.Drawing.Size(1500, 850);
 			this.Name = "GameWindow";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "SPanzerKampfWagen";
@@ -112,6 +117,7 @@
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.PictureBox pCanvas;
 		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Timer timer2;
 	}
 }
 

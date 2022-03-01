@@ -7,19 +7,41 @@ using System.Threading.Tasks;
 
 namespace SPANzer
 {
-	public abstract class Tank
+	public class Tank
 	{
-		public static bool tUp, tDown, tLeft, tRight;
-		public static PointF tankCo = new Point(50, 50);
-		public static Image OldImg, img;
-		public static int moveSpeed = 3;
-		public static float angle = 0f;
+		public bool tUp { get; set; }
+		public bool tLeft { get; set; }
+		public bool tDown { get; set; }
+		public bool tRight { get; set; }
+		
+		public PointF tankCo;
+		public Image OldImg;
+		public Image img;
+
+		public const int moveSpeed = 3;
+		public float angle = 0f;
 		public const float angV = 5f;
 		public static int CanvasHeight;
-		
-		public void DrawTank(Graphics e)
+
+		public Tank(string str, int x, int y)
 		{
+			
+			this.tUp = false;
+			this.tLeft = false;
+			this.tDown = false;
+			this.tRight = false;
+			this.angle = 0f;
+			this.tankCo = new PointF(x,y);
+			this.OldImg = Image.FromFile(str);
+			this.img = this.OldImg;
 		}
+
+		/*public void DrawTank(Graphics e)
+		{
+			e.DrawImage(img, tankCo.X, tankCo.Y, 32, 32);
+			e.DrawImage(img, tankCo.X + 100, tankCo.Y + 100, 32, 32);
+		}*/
+
 		public void MoveTank()
 		{
 			///vX vY kerekites
@@ -60,6 +82,15 @@ namespace SPANzer
 				}
 				img = RotateImage(OldImg, angle);
 			}
+		}
+		public PointF getTankCo()
+		{
+			return tankCo;
+		}
+
+		public Image getImg()
+		{
+			return img;
 		}
 
 		public static Bitmap RotateImage(Image image, float angle)
