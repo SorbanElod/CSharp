@@ -17,9 +17,10 @@ namespace SPANzer
 		{
 			InitializeComponent();
 		}
+		const int imgSize = 44;
 		Walls Walls = new Walls();
-		Tank t1 = new Tank("PanzerGut.png", 50, 50);
-		Tank t2 = new Tank("PanzerGut.png", 200, 200);
+		Tank t1 = new Tank("GreenTank.png", 50, 50);
+		Tank t2 = new Tank("GreenTankM4.png", 200, 200);
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			pControl.BackColor = Color.Salmon;
@@ -35,9 +36,9 @@ namespace SPANzer
 
 		private void pCanvas_Paint(object sender, PaintEventArgs e)
 		{
-			e.Graphics.DrawImage(t1.img, t1.tankCo.X, t1.tankCo.Y, 32, 32);
+			e.Graphics.DrawImage(t1.img, t1.tankCo.X, t1.tankCo.Y, imgSize, imgSize);
 			//t1.DrawTank(e.Graphics);
-			e.Graphics.DrawImage(t2.img, t2.tankCo.X, t2.tankCo.Y, 32, 32);
+			e.Graphics.DrawImage(t2.img, t2.tankCo.X, t2.tankCo.Y, imgSize, imgSize);
 			Walls.DrawWalls(e.Graphics);
 		}
 		
@@ -58,7 +59,7 @@ namespace SPANzer
 			if (e.KeyCode == Keys.Left) t1.tLeft = true;
 			if (e.KeyCode == Keys.Down) t1.tDown = true;
 			if (e.KeyCode == Keys.Right) t1.tRight = true;
-			
+
 			if (e.KeyCode == Keys.W) t2.tUp = true;
 			if (e.KeyCode == Keys.A) t2.tLeft = true;
 			if (e.KeyCode == Keys.S) t2.tDown = true;
