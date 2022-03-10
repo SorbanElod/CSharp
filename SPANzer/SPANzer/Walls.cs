@@ -8,13 +8,11 @@ using System.Threading.Tasks;
 
 namespace SPANzer
 {
-	class Walls
+	public class Walls
 	{
-		private const float wALL_THICKNESS = 3;
-		private List<Brick> allWalls = new List<Brick>();
-		public static float WALL_THICKNESS => wALL_THICKNESS;
+		private const float WALL_THICKNESS = 3;
+		public List<Brick> allWalls = new List<Brick>();
 		public PointF LT, RT, RB, LB;
-		public bool dr = false;
 		
 		public void Build()
 		{
@@ -43,26 +41,34 @@ namespace SPANzer
 		}
 		public void DrawWalls(Graphics g)
 		{
-			if (dr == false)
-			{
-				Build();
-				dr = true;
-			}
 			foreach (Brick w in allWalls)
 			{
 				w.Draw(g);
 			}
 		}
-		private class Brick
+		public class Brick
 		{
 			public PointF wallStart { get; set; }
 			public PointF wallEnd { get; set; }
 			public Color Color { get => color; set => color = value; }
+			public bool vertical;      //true if vertical, false if horizontal
 			private Color color;
 			public Brick(PointF wallStart, PointF wallEnd)
 			{
 				this.wallStart = wallStart;
 				this.wallEnd = wallEnd;
+				if (wallStart.X == wallEnd.X)
+				{
+					this.vertical = false;
+				}
+				else if (wallStart.Y == wallEnd.Y)
+				{
+					this.vertical = true;
+				}
+				else
+				{
+					throw new Exception("a wall is not vertical, nor horizontal");
+				}
 				this.Color = Color.Black;
 			}
 			public Brick(float stX, float stY, float enX, float enY)

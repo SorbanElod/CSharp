@@ -13,19 +13,25 @@ namespace SPANzer
 		public bool tLeft { get; set; }
 		public bool tDown { get; set; }
 		public bool tRight { get; set; }
-		
 		public PointF tankCo;
-		public Image OldImg;
-		public Image img;
-
-		public const int moveSpeed = 3;
 		public float angle = 0f;
-		public const float angV = 5f;
 		public static int CanvasHeight;
+		public bool up, down, left, right;
+		private Image OldImg;
+		private Image img;
+		private float Vx, Vy;
+		private const float moveSpeed = 3.5f;
+		private const float angV = 5.5f;
+		private const int imgSize = 50;
 
 		public Tank(string str, int x, int y)
 		{
-			
+			this.up = false;
+			this.down = false;
+			this.left = false;
+			this.right = false;
+			this.Vx = 0;
+			this.Vy = 0;
 			this.tUp = false;
 			this.tLeft = false;
 			this.tDown = false;
@@ -36,31 +42,56 @@ namespace SPANzer
 			this.img = this.OldImg;
 		}
 
-		/*public void DrawTank(Graphics e)
+		public void DrawTank(Graphics e)
 		{
-			e.DrawImage(img, tankCo.X, tankCo.Y, 32, 32);
-			e.DrawImage(img, tankCo.X + 100, tankCo.Y + 100, 32, 32);
-		}*/
+			//e.DrawImage(this.img, this.tankCo.X, this.tankCo.Y, imgSize, imgSize);
+			e.DrawImage(img, tankCo.X, tankCo.Y, imgSize, imgSize);
+			//e.DrawImage(img, tankCo.X + 100, tankCo.Y + 100, 32, 32);
+		}
 
 		public void MoveTank()
 		{
-			///vX vY kerekites
+
+			// Calculate velocity from angle and base speed
+			Vx = (float)(moveSpeed * Math.Sin((angle * 0.0174532925)));
+			Vy = (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
+
+			//Vertical and horizontal velocity
+			CollisionDetector();
+
+			GameWindow.tt1 = Vx;
+			GameWindow.tt2 = Vy;
+
+			if (up == true)
+			{
+				Vy = 0;
+			}
+			if (down == true)
+			{
+				Vy = 0;
+			}
+			if (left == true)
+			{
+				Vx = 0;
+			}
+			if (right == true)
+			{
+				Vx = 0;
+			}
+			up = false;
+			down = false;
+			left = false;
+			right = false;
+
 			if (tUp)
 			{
-				if (tankCo.Y - moveSpeed >= 0)
-				{
-					tankCo.Y -= (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
-					tankCo.X += (float)(moveSpeed * Math.Sin((angle * 0.0174532925)));
-				}
+				tankCo.Y -= Vy;
+				tankCo.X += Vx;
 			}
 			if (tDown)
 			{
-				if (tankCo.Y + moveSpeed + img.Height <= CanvasHeight)
-				{
-
-					tankCo.Y += (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
-					tankCo.X -= (float)(moveSpeed * Math.Sin((angle * 0.0174532925)));
-				}
+				tankCo.Y += Vy;
+				tankCo.X -= Vx;
 			}
 			if (tLeft)
 			{
@@ -83,15 +114,6 @@ namespace SPANzer
 				img = RotateImage(OldImg, angle);
 			}
 		}
-		public PointF getTankCo()
-		{
-			return tankCo;
-		}
-
-		public Image getImg()
-		{
-			return img;
-		}
 
 		public static Bitmap RotateImage(Image image, float angle)
 		{
@@ -105,9 +127,34 @@ namespace SPANzer
 			return rotatedBmp;
 		}
 
-		public int CollisionDetector()
+		public void CollisionDetector()
 		{
-			return 0;
+			foreach (Walls.Brick w in GameWindow.wall.allWalls)
+			{
+				if(w.vertical == true)
+				{
+					if (this.tankCo.X > w.wallStart.X && this.tankCo.X + this.Vx < w.wallStart.X)
+					{
+						this.left = true;
+					}
+					else if (this.tankCo.X < w.wallStart.X && this.tankCo.X + this.Vx > w.wallStart.X)
+					{
+						this.right = true;
+					}
+					
+				}
+				else if(w.vertical == false)
+				{
+					if (this.tankCo.Y > w.wallStart.Y && this.tankCo.Y + this.Vy < w.wallStart.Y) 
+					{
+						this.up = true;
+					}
+					else if (this.tankCo.Y < w.wallStart.Y && this.tankCo.Y + this.Vy > w.wallStart.Y)
+					{
+						this.down = true;
+					}
+				}
+			}
 		}
 	}
 }

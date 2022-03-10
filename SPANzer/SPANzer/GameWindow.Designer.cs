@@ -30,6 +30,7 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			this.pControl = new System.Windows.Forms.Panel();
+			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -41,6 +42,7 @@
 			// 
 			// pControl
 			// 
+			this.pControl.Controls.Add(this.label3);
 			this.pControl.Controls.Add(this.label2);
 			this.pControl.Controls.Add(this.label1);
 			this.pControl.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -48,6 +50,15 @@
 			this.pControl.Name = "pControl";
 			this.pControl.Size = new System.Drawing.Size(1482, 100);
 			this.pControl.TabIndex = 0;
+			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Location = new System.Drawing.Point(972, 39);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(44, 16);
+			this.label3.TabIndex = 4;
+			this.label3.Text = "label3";
 			// 
 			// label2
 			// 
@@ -80,6 +91,7 @@
 			this.pCanvas.Size = new System.Drawing.Size(1482, 683);
 			this.pCanvas.TabIndex = 3;
 			this.pCanvas.TabStop = false;
+			this.pCanvas.Click += new System.EventHandler(this.pCanvas_Click);
 			this.pCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.pCanvas_Paint);
 			// 
 			// timer2
@@ -118,6 +130,7 @@
 		private System.Windows.Forms.PictureBox pCanvas;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Timer timer2;
+		private System.Windows.Forms.Label label3;
 	}
 }
 

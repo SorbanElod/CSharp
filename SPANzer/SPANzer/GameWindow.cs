@@ -17,9 +17,9 @@ namespace SPANzer
 		{
 			InitializeComponent();
 		}
-		const int imgSize = 44;
-		Walls Walls = new Walls();
-		Tank t1 = new Tank("GreenTank.png", 50, 50);
+		public static Walls wall = new Walls();
+		public static float tt1, tt2;
+		Tank t1 = new Tank("GreenTankM4.png", 50, 50);
 		Tank t2 = new Tank("GreenTankM4.png", 200, 200);
 		private void Form1_Load(object sender, EventArgs e)
 		{
@@ -28,25 +28,29 @@ namespace SPANzer
 			timer1.Enabled = true;
 			timer2.Enabled = true;
 			//Get the Canvas' corners
-			Walls.LT = new PointF(pCanvas.Left + 5, pCanvas.Top + 5);
-			Walls.LB = new PointF(pCanvas.Left + 5, pCanvas.Bottom - 5);
-			Walls.RB = new PointF(pCanvas.Right - 5, pCanvas.Bottom - 5);
-			Walls.RT = new PointF(pCanvas.Right - 5, pCanvas.Top + 5);
+			wall.LT = new PointF(pCanvas.Left + 5, pCanvas.Top + 5);
+			wall.LB = new PointF(pCanvas.Left + 5, pCanvas.Bottom - 5);
+			wall.RB = new PointF(pCanvas.Right - 5, pCanvas.Bottom - 5);
+			wall.RT = new PointF(pCanvas.Right - 5, pCanvas.Top + 5);
+			wall.Build();
 		}
 
 		private void pCanvas_Paint(object sender, PaintEventArgs e)
 		{
-			e.Graphics.DrawImage(t1.img, t1.tankCo.X, t1.tankCo.Y, imgSize, imgSize);
-			//t1.DrawTank(e.Graphics);
-			e.Graphics.DrawImage(t2.img, t2.tankCo.X, t2.tankCo.Y, imgSize, imgSize);
-			Walls.DrawWalls(e.Graphics);
+			//e.Graphics.DrawImage(t1.img, t1.tankCo.X, t1.tankCo.Y, imgSize, imgSize);
+			t1.DrawTank(e.Graphics);
+			t2.DrawTank(e.Graphics);
+			//e.Graphics.DrawImage(t2.img, t2.tankCo.X, t2.tankCo.Y, imgSize, imgSize);
+			wall.DrawWalls(e.Graphics);
 		}
 		
 		private void timer1_Tick(object sender, EventArgs e)
 		{
 			t1.MoveTank();
 			pCanvas.Refresh();
-			//label1.Text = (tankCo.X.ToString() + " " + tankCo.Y.ToString() + " " + angle.ToString());
+			label2.Text = "up: " + t1.up.ToString() + "  down: " + t1.down.ToString() + "  left: " + t1.left.ToString() + "  right: " + t1.right.ToString();
+			label3.Text = "vX = " + tt1.ToString() + "     vY = " + tt2.ToString();
+			label1.Text = (t1.tankCo.X.ToString() + " " + t1.tankCo.Y.ToString() + " " + t1.angle.ToString());
 		}
 		private void timer2_Tick(object sender, EventArgs e)
 		{
@@ -64,6 +68,15 @@ namespace SPANzer
 			if (e.KeyCode == Keys.A) t2.tLeft = true;
 			if (e.KeyCode == Keys.S) t2.tDown = true;
 			if (e.KeyCode == Keys.D) t2.tRight = true;
+		}
+
+		private void pCanvas_Click(object sender, EventArgs e)
+		{
+			t1.up = false;
+			t1.down = false;
+			t1.left = false;
+			t1.right = false;
+			label2.Text = "up: " + t1.up.ToString() + "  down: " + t1.down.ToString() + "  left: " + t1.left.ToString() + "  right: " + t1.right.ToString();
 		}
 
 		private void Form1_KeyUp(object sender, KeyEventArgs e)
