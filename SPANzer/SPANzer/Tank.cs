@@ -131,27 +131,33 @@ namespace SPANzer
 		{
 			foreach (Walls.Brick w in GameWindow.wall.allWalls)
 			{
-				if(w.vertical == true)
+				if(w.vertical == false) // horizontal
 				{
-					if (this.tankCo.X > w.wallStart.X && this.tankCo.X + this.Vx < w.wallStart.X)
+					if (this.tankCo.Y > w.wallStart.Y && this.tankCo.Y < w.wallEnd.Y)
 					{
-						this.left = true;
-					}
-					else if (this.tankCo.X < w.wallStart.X && this.tankCo.X + this.Vx > w.wallStart.X)
-					{
-						this.right = true;
+						if (this.tankCo.Y > w.wallStart.Y && this.tankCo.Y + this.Vy < w.wallStart.Y)
+						{
+							this.left = true;
+						}
+						else if (this.tankCo.Y < w.wallStart.Y && this.tankCo.Y + this.Vy > w.wallStart.Y)
+						{
+							this.right = true;
+						}
 					}
 					
 				}
-				else if(w.vertical == false)
+				else if(w.vertical == true) //vertical
 				{
-					if (this.tankCo.Y > w.wallStart.Y && this.tankCo.Y + this.Vy < w.wallStart.Y) 
+					if (this.tankCo.X > w.wallStart.X && this.tankCo.X < w.wallEnd.X)
 					{
-						this.up = true;
-					}
-					else if (this.tankCo.Y < w.wallStart.Y && this.tankCo.Y + this.Vy > w.wallStart.Y)
-					{
-						this.down = true;
+						if (this.tankCo.X > w.wallStart.X && this.tankCo.X + this.Vx < w.wallStart.X)
+						{
+							this.up = true;
+						}
+						else if (this.tankCo.X < w.wallStart.X && this.tankCo.X + this.Vx > w.wallStart.X)
+						{
+							this.down = true;
+						}
 					}
 				}
 			}
