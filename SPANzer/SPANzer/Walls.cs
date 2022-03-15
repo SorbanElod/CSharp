@@ -16,11 +16,12 @@ namespace SPANzer
 		
 		public void Build()
 		{
+			/*
 			allWalls.Add(new Brick(LT, RT));
 			allWalls.Add(new Brick(RT, RB));
 			allWalls.Add(new Brick(RB, LB));
 			allWalls.Add(new Brick(LB, LT));
-			/*
+			
 			Console.WriteLine("LT" + LT.ToString());
 			Console.WriteLine("LB" + LB.ToString());
 			Console.WriteLine("RT" + RT.ToString());

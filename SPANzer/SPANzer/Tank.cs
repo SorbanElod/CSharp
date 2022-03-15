@@ -51,42 +51,32 @@ namespace SPANzer
 
 		public void MoveTank()
 		{
-
-			// Calculate velocity from angle and base speed
-			Vx = (float)(moveSpeed * Math.Sin((angle * 0.0174532925)));//PI/180
-			Vy = (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
-			/*
-			if (tUp)
-			{
-				tankCo.Y -= Vy;
-				tankCo.X += Vx;
-			}
-			if (tDown)
-			{
-				tankCo.Y += Vy;
-				tankCo.X -= Vx;
-			}
-			*/
-			if(tUp && tDown)
+			
+			if(tUp == tDown)
 			{
 				Vx = 0;
 				Vy = 0;
 			}
 			else if (tUp)
 			{
-				Vy = - Vy;
+				// Calculate velocity from angle and base speed
+				Vx = (float)(moveSpeed * Math.Sin((angle * 0.0174532925))); //that ugly number is PI/180
+				Vy = -(float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
 			}
 			else if (tDown)
 			{
-				Vx = - Vx;
+				// Calculate velocity from angle and base speed
+				Vx = -(float)(moveSpeed * Math.Sin((angle * 0.0174532925)));
+				Vy = (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
 			}
+
 			//If it collides then one component of the velocity will be removed (Vx or Vy)
 			CollisionDetector();
-			if(tDown || tUp)
-			{
-				tankCo.X += Vx;
-				tankCo.Y += Vy;
-			}
+
+			
+			tankCo.X += Vx;
+			tankCo.Y += Vy;
+			
 
 			if (tLeft)
 			{
@@ -114,7 +104,7 @@ namespace SPANzer
 			Console.WriteLine(img.Width.ToString() + "   " + img.Height.ToString());
 			Console.WriteLine("tUp " + tUp.ToString() + " tDown " + tDown.ToString());
 			Console.WriteLine("tLeft " + tLeft.ToString() + " tRight " + tRight.ToString());
-			Console.Write("\n");
+			//Console.Write("\n");
 			
 		}
 
@@ -140,18 +130,18 @@ namespace SPANzer
 					{
 						if (tankCo.Y > w.wallStart.Y && tankCo.Y + Vy < w.wallStart.Y)
 						{
-							//this.down = true;
 							if(Vy < 0)
 							{
 								Vy = 0;
+								Console.WriteLine("UP");
 							}
 						}
-						if (tankCo.Y < w.wallStart.Y && tankCo.Y + Vy > w.wallStart.Y)
+						if (tankCo.Y + imgSize < w.wallStart.Y && tankCo.Y + imgSize + Vy > w.wallStart.Y)
 						{
-							//this.up = true;
 							if (Vy > 0)
 							{
 								Vy = 0;
+								Console.WriteLine("DOWN");
 							}
 						}
 					}
@@ -162,18 +152,18 @@ namespace SPANzer
 					{
 						if (tankCo.X > w.wallStart.X && tankCo.X + Vx < w.wallStart.X)
 						{
-							//this.left = true;
 							if(Vx < 0)
 							{
 								Vx = 0;
+								Console.WriteLine("LEFT");
 							}
 						}
-						if (tankCo.X < w.wallStart.X && tankCo.X + Vx > w.wallStart.X)
+						if (tankCo.X + imgSize < w.wallStart.X && tankCo.X  + imgSize + Vx > w.wallStart.X)
 						{
-							//this.right = true;
 							if (Vx > 0)
 							{
 								Vx = 0;
+								Console.WriteLine("RIGHT");
 							}
 						}
 					}
