@@ -91,7 +91,6 @@
 			this.pCanvas.Size = new System.Drawing.Size(1482, 683);
 			this.pCanvas.TabIndex = 3;
 			this.pCanvas.TabStop = false;
-			this.pCanvas.Click += new System.EventHandler(this.pCanvas_Click);
 			this.pCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.pCanvas_Paint);
 			// 
 			// timer2

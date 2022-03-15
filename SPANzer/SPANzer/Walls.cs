@@ -20,6 +20,12 @@ namespace SPANzer
 			allWalls.Add(new Brick(RT, RB));
 			allWalls.Add(new Brick(RB, LB));
 			allWalls.Add(new Brick(LB, LT));
+			/*
+			Console.WriteLine("LT" + LT.ToString());
+			Console.WriteLine("LB" + LB.ToString());
+			Console.WriteLine("RT" + RT.ToString());
+			Console.WriteLine("RB" + RB.ToString());
+			*/
 			PointF st = new PointF();
 			PointF en = new PointF();
 			string str;
@@ -54,27 +60,10 @@ namespace SPANzer
 			public bool vertical;      //true if vertical, false if horizontal
 			private Color color;
 			
-			public void CheckIfIsVertical()
-			{
-				if (wallStart.X == wallEnd.X)
-				{
-					this.vertical = true; //aka. vertical
-				}
-				else if (wallStart.Y == wallEnd.Y)
-				{
-					this.vertical = false; //aka. horizontal
-				}
-				else
-				{
-					throw new Exception("a wall is not vertical, nor horizontal");
-				}
-			}
-			
 			public Brick(PointF wallStart, PointF wallEnd)
 			{
 				this.wallStart = wallStart;
 				this.wallEnd = wallEnd;
-				//this.CheckIfIsVertical();
 				if (wallStart.X == wallEnd.X)
 				{
 					this.vertical = true; //aka. vertical
@@ -89,25 +78,7 @@ namespace SPANzer
 				}
 				this.Color = Color.Black;
 			}
-			public Brick(float stX, float stY, float enX, float enY)
-			{
-				this.wallStart = new PointF(stX, stY);
-				this.wallEnd = new PointF(enX, enY);
-				//this.CheckIfIsVertical();
-				if (wallStart.X == wallEnd.X)
-				{
-					this.vertical = true; //aka. vertical
-				}
-				else if (wallStart.Y == wallEnd.Y)
-				{
-					this.vertical = false; //aka. horizontal
-				}
-				else
-				{
-					throw new Exception("a wall is not vertical, nor horizontal");
-				}
-				this.Color = Color.Black;
-			}
+
 			internal void Draw(Graphics g)
 			{
 				Pen p = new Pen(Color, WALL_THICKNESS);

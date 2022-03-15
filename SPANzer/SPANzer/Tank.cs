@@ -55,29 +55,7 @@ namespace SPANzer
 			// Calculate velocity from angle and base speed
 			Vx = (float)(moveSpeed * Math.Sin((angle * 0.0174532925)));//PI/180
 			Vy = (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
-			
-			//Vertical and horizontal velocity
-			CollisionDetector();
-
-			GameWindow.tt1 = Vx;
-			GameWindow.tt2 = Vy;
-
-			if (up == true)
-			{
-				Vy = 0;
-			}
-			if (down == true)
-			{
-				Vy = 0;
-			}
-			if (left == true)
-			{
-				Vx = 0;
-			}
-			if (right == true)
-			{
-				Vx = 0;
-			}
+			/*
 			if (tUp)
 			{
 				tankCo.Y -= Vy;
@@ -88,6 +66,28 @@ namespace SPANzer
 				tankCo.Y += Vy;
 				tankCo.X -= Vx;
 			}
+			*/
+			if(tUp && tDown)
+			{
+				Vx = 0;
+				Vy = 0;
+			}
+			else if (tUp)
+			{
+				Vy = - Vy;
+			}
+			else if (tDown)
+			{
+				Vx = - Vx;
+			}
+			//If it collides then one component of the velocity will be removed (Vx or Vy)
+			CollisionDetector();
+			if(tDown || tUp)
+			{
+				tankCo.X += Vx;
+				tankCo.Y += Vy;
+			}
+
 			if (tLeft)
 			{
 				angle -= angV;
@@ -108,12 +108,14 @@ namespace SPANzer
 				}
 				img = RotateImage(OldImg, angle);
 			}
-			/*
-			up = false;
-			down = false;
-			left = false;
-			right = false;
-			*/
+			
+			Console.WriteLine("vX = " + Vx.ToString() + "     vY = " + Vy.ToString());
+			Console.WriteLine("X: " + tankCo.X.ToString() + " Y: " + tankCo.Y.ToString() + " Ang: " + angle.ToString());
+			Console.WriteLine(img.Width.ToString() + "   " + img.Height.ToString());
+			Console.WriteLine("tUp " + tUp.ToString() + " tDown " + tDown.ToString());
+			Console.WriteLine("tLeft " + tLeft.ToString() + " tRight " + tRight.ToString());
+			Console.Write("\n");
+			
 		}
 
 		public static Bitmap RotateImage(Image image, float angle)
@@ -129,35 +131,50 @@ namespace SPANzer
 		}
 
 		public void CollisionDetector()
-		{ 
+		{
 			foreach (Walls.Brick w in GameWindow.wall.allWalls)
 			{
-				//Console.WriteLine("f");
 				if(w.vertical == false) // horizontal
 				{
-					if (this.tankCo.X >= w.wallStart.X && this.tankCo.X <= w.wallEnd.X)
+					if (tankCo.X >= w.wallStart.X && tankCo.X <= w.wallEnd.X)
 					{
-						if (this.tankCo.Y > w.wallStart.Y && this.tankCo.Y + this.Vy < w.wallStart.Y)
+						if (tankCo.Y > w.wallStart.Y && tankCo.Y + Vy < w.wallStart.Y)
 						{
-							this.down = true;
+							//this.down = true;
+							if(Vy < 0)
+							{
+								Vy = 0;
+							}
 						}
-						if (this.tankCo.Y < w.wallStart.Y && this.tankCo.Y + this.Vy > w.wallStart.Y)
+						if (tankCo.Y < w.wallStart.Y && tankCo.Y + Vy > w.wallStart.Y)
 						{
-							this.up = true;
+							//this.up = true;
+							if (Vy > 0)
+							{
+								Vy = 0;
+							}
 						}
 					}
 				}
 				else if(w.vertical == true) //vertical
 				{
-					if (this.tankCo.Y >= w.wallStart.Y && this.tankCo.Y <= w.wallEnd.Y)
+					if (tankCo.Y >= w.wallStart.Y && tankCo.Y <= w.wallEnd.Y)
 					{
-						if (this.tankCo.X > w.wallStart.X && this.tankCo.X + this.Vx < w.wallStart.X)
+						if (tankCo.X > w.wallStart.X && tankCo.X + Vx < w.wallStart.X)
 						{
-							this.left = true;
+							//this.left = true;
+							if(Vx < 0)
+							{
+								Vx = 0;
+							}
 						}
-						if (this.tankCo.X < w.wallStart.X && this.tankCo.X + this.Vx > w.wallStart.X)
+						if (tankCo.X < w.wallStart.X && tankCo.X + Vx > w.wallStart.X)
 						{
-							this.right = true;
+							//this.right = true;
+							if (Vx > 0)
+							{
+								Vx = 0;
+							}
 						}
 					}
 				}
