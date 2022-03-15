@@ -53,9 +53,9 @@ namespace SPANzer
 		{
 
 			// Calculate velocity from angle and base speed
-			Vx = (float)(moveSpeed * Math.Sin((angle * 0.0174532925)));
+			Vx = (float)(moveSpeed * Math.Sin((angle * 0.0174532925)));//PI/180
 			Vy = (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
-
+			
 			//Vertical and horizontal velocity
 			CollisionDetector();
 
@@ -78,11 +78,6 @@ namespace SPANzer
 			{
 				Vx = 0;
 			}
-			up = false;
-			down = false;
-			left = false;
-			right = false;
-
 			if (tUp)
 			{
 				tankCo.Y -= Vy;
@@ -113,6 +108,12 @@ namespace SPANzer
 				}
 				img = RotateImage(OldImg, angle);
 			}
+			/*
+			up = false;
+			down = false;
+			left = false;
+			right = false;
+			*/
 		}
 
 		public static Bitmap RotateImage(Image image, float angle)
@@ -128,35 +129,35 @@ namespace SPANzer
 		}
 
 		public void CollisionDetector()
-		{
+		{ 
 			foreach (Walls.Brick w in GameWindow.wall.allWalls)
 			{
+				//Console.WriteLine("f");
 				if(w.vertical == false) // horizontal
 				{
-					if (this.tankCo.Y > w.wallStart.Y && this.tankCo.Y < w.wallEnd.Y)
+					if (this.tankCo.X >= w.wallStart.X && this.tankCo.X <= w.wallEnd.X)
 					{
 						if (this.tankCo.Y > w.wallStart.Y && this.tankCo.Y + this.Vy < w.wallStart.Y)
 						{
-							this.left = true;
+							this.down = true;
 						}
-						else if (this.tankCo.Y < w.wallStart.Y && this.tankCo.Y + this.Vy > w.wallStart.Y)
-						{
-							this.right = true;
-						}
-					}
-					
-				}
-				else if(w.vertical == true) //vertical
-				{
-					if (this.tankCo.X > w.wallStart.X && this.tankCo.X < w.wallEnd.X)
-					{
-						if (this.tankCo.X > w.wallStart.X && this.tankCo.X + this.Vx < w.wallStart.X)
+						if (this.tankCo.Y < w.wallStart.Y && this.tankCo.Y + this.Vy > w.wallStart.Y)
 						{
 							this.up = true;
 						}
-						else if (this.tankCo.X < w.wallStart.X && this.tankCo.X + this.Vx > w.wallStart.X)
+					}
+				}
+				else if(w.vertical == true) //vertical
+				{
+					if (this.tankCo.Y >= w.wallStart.Y && this.tankCo.Y <= w.wallEnd.Y)
+					{
+						if (this.tankCo.X > w.wallStart.X && this.tankCo.X + this.Vx < w.wallStart.X)
 						{
-							this.down = true;
+							this.left = true;
+						}
+						if (this.tankCo.X < w.wallStart.X && this.tankCo.X + this.Vx > w.wallStart.X)
+						{
+							this.right = true;
 						}
 					}
 				}

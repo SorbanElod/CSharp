@@ -19,8 +19,8 @@ namespace SPANzer
 		}
 		public static Walls wall = new Walls();
 		public static float tt1, tt2;
-		Tank t1 = new Tank("GreenTankM4.png", 50, 50);
-		Tank t2 = new Tank("GreenTankM4.png", 200, 200);
+		Tank t1 = new Tank("GreenTankM4.png", 300, 300);
+		Tank t2 = new Tank("GreenTankM4.png", 20, 20);
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			pControl.BackColor = Color.Salmon;

@@ -4,4 +4,5 @@
 # Separate them with simple spaces
 # Comment lines with the # symbol
 # Only vertical or horizontal walls
-100 100 500 100
+200 200 500 200
+200 200 200 500

@@ -53,17 +53,35 @@ namespace SPANzer
 			public Color Color { get => color; set => color = value; }
 			public bool vertical;      //true if vertical, false if horizontal
 			private Color color;
+			
+			public void CheckIfIsVertical()
+			{
+				if (wallStart.X == wallEnd.X)
+				{
+					this.vertical = true; //aka. vertical
+				}
+				else if (wallStart.Y == wallEnd.Y)
+				{
+					this.vertical = false; //aka. horizontal
+				}
+				else
+				{
+					throw new Exception("a wall is not vertical, nor horizontal");
+				}
+			}
+			
 			public Brick(PointF wallStart, PointF wallEnd)
 			{
 				this.wallStart = wallStart;
 				this.wallEnd = wallEnd;
+				//this.CheckIfIsVertical();
 				if (wallStart.X == wallEnd.X)
 				{
-					this.vertical = false;
+					this.vertical = true; //aka. vertical
 				}
 				else if (wallStart.Y == wallEnd.Y)
 				{
-					this.vertical = true;
+					this.vertical = false; //aka. horizontal
 				}
 				else
 				{
@@ -75,6 +93,19 @@ namespace SPANzer
 			{
 				this.wallStart = new PointF(stX, stY);
 				this.wallEnd = new PointF(enX, enY);
+				//this.CheckIfIsVertical();
+				if (wallStart.X == wallEnd.X)
+				{
+					this.vertical = true; //aka. vertical
+				}
+				else if (wallStart.Y == wallEnd.Y)
+				{
+					this.vertical = false; //aka. horizontal
+				}
+				else
+				{
+					throw new Exception("a wall is not vertical, nor horizontal");
+				}
 				this.Color = Color.Black;
 			}
 			internal void Draw(Graphics g)
