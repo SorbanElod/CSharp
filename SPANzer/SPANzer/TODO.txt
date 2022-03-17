@@ -1,6 +1,2 @@
-﻿Left and bottom walls not blocking
-Tank can go through corners from outside
-If Direction of the tank is parallel with wall you can go through wall (same problem as above)
-You can rotate into walls ???? lol you are unable to do it, but needs extensive testing
-Bullet
+﻿Bullet
 

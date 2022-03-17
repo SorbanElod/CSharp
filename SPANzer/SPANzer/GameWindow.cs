@@ -17,9 +17,11 @@ namespace SPANzer
 		{
 			InitializeComponent();
 		}
+
 		public static Walls wall = new Walls();
 		public static float tt1, tt2;
 		Tank t1 = new Tank("PinkTank.png", 300, 300);
+		Bullet b1 = new Bullet();
 		//Tank t2 = new Tank("GreenTankM4.png", 20, 20);
 		private void Form1_Load(object sender, EventArgs e)
 		{
@@ -39,6 +41,7 @@ namespace SPANzer
 		{
 			//e.Graphics.DrawImage(t1.img, t1.tankCo.X, t1.tankCo.Y, imgSize, imgSize);
 			t1.DrawTank(e.Graphics);
+			b1.DrawBullet(e.Graphics);
 			//t2.DrawTank(e.Graphics);
 			//e.Graphics.DrawImage(t2.img, t2.tankCo.X, t2.tankCo.Y, imgSize, imgSize);
 			wall.DrawWalls(e.Graphics);
@@ -47,6 +50,9 @@ namespace SPANzer
 		private void timer1_Tick(object sender, EventArgs e)
 		{
 			t1.MoveTank();
+			b1.MoveBullets();
+			b1.Expire();
+			Console.WriteLine(b1.Bullets.Count.ToString());
 			pCanvas.Refresh();
 		}
 		private void timer2_Tick(object sender, EventArgs e)
@@ -60,6 +66,7 @@ namespace SPANzer
 			if (e.KeyCode == Keys.Left) t1.tLeft = true;
 			if (e.KeyCode == Keys.Down) t1.tDown = true;
 			if (e.KeyCode == Keys.Right) t1.tRight = true;
+			if (e.KeyCode == Keys.Space) b1.Add(t1.cannon, t1.dX, t1.dY);
 			/*
 			if (e.KeyCode == Keys.W) t2.tUp = true;
 			if (e.KeyCode == Keys.A) t2.tLeft = true;

@@ -13,17 +13,18 @@ namespace SPANzer
 		public bool tLeft { get; set; }
 		public bool tDown { get; set; }
 		public bool tRight { get; set; }
-		public PointF tankCo;
+		public PointF tankCo = new PointF();
 		public float angle = 0f;
 		public static int CanvasHeight;
 		public bool up, down, left, right;
+		public float dX, dY;
 		private Image OldImg;
 		private Image img;
 		private float Vx, Vy;
 		private const float moveSpeed = 3.5f;
 		private const float angV = 5.5f;
 		private const int imgSize = 50;
-
+		public PointF cannon;
 		public Tank(string str, int x, int y)
 		{
 			this.up = false;
@@ -40,6 +41,7 @@ namespace SPANzer
 			this.tankCo = new PointF(x,y);
 			this.OldImg = Image.FromFile(str);
 			this.img = this.OldImg;
+			this.cannon = new PointF(x + imgSize / 2, y + imgSize / 2);
 		}
 
 		public void DrawTank(Graphics e)
@@ -70,13 +72,17 @@ namespace SPANzer
 				Vy = (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
 			}
 
+			//get direction
+			dX = (float)(Math.Sin((angle * 0.0174532925)));
+			dY = -(float)(Math.Cos((angle * 0.0174532925)));
+
 			//If it collides then one component of the velocity will be removed (Vx or Vy)
 			CollisionDetector();
-
 			
 			tankCo.X += Vx;
 			tankCo.Y += Vy;
-			
+			cannon.X = tankCo.X + imgSize / 2;
+			cannon.Y = tankCo.Y + imgSize / 2 ;
 
 			if (tLeft)
 			{
@@ -98,14 +104,13 @@ namespace SPANzer
 				}
 				img = RotateImage(OldImg, angle);
 			}
-			
+			/*
 			Console.WriteLine("vX = " + Vx.ToString() + "     vY = " + Vy.ToString());
 			Console.WriteLine("X: " + tankCo.X.ToString() + " Y: " + tankCo.Y.ToString() + " Ang: " + angle.ToString());
-			Console.WriteLine(img.Width.ToString() + "   " + img.Height.ToString());
 			Console.WriteLine("tUp " + tUp.ToString() + " tDown " + tDown.ToString());
 			Console.WriteLine("tLeft " + tLeft.ToString() + " tRight " + tRight.ToString());
 			//Console.Write("\n");
-			
+			*/
 		}
 
 		public static Bitmap RotateImage(Image image, float angle)
@@ -122,49 +127,67 @@ namespace SPANzer
 
 		public void CollisionDetector()
 		{
-			foreach (Walls.Brick w in GameWindow.wall.allWalls)
+			foreach (Brick w in GameWindow.wall.allWalls)
 			{
-				if(w.vertical == false) // horizontal
+				if(w.vertical == false) // horizontal wall
 				{
+					//check if tank can collide with wall's side
 					if (tankCo.X >= w.wallStart.X && tankCo.X <= w.wallEnd.X)
 					{
+						//collision with tehe wall above
 						if (tankCo.Y > w.wallStart.Y && tankCo.Y + Vy < w.wallStart.Y)
 						{
-							if(Vy < 0)
-							{
-								Vy = 0;
-								Console.WriteLine("UP");
-							}
+							Vy = 0;
 						}
+						//collision with the wall below
 						if (tankCo.Y + imgSize < w.wallStart.Y && tankCo.Y + imgSize + Vy > w.wallStart.Y)
 						{
-							if (Vy > 0)
-							{
-								Vy = 0;
-								Console.WriteLine("DOWN");
-							}
+							Vy = 0;
+						}
+					}
+					//checks if tank can collide with the walls end
+					if (tankCo.Y < w.wallStart.Y && tankCo.Y + imgSize > w.wallStart.Y)
+					{
+						//collision with the right end
+						if (tankCo.X > w.wallEnd.X && tankCo.X + Vx < w.wallEnd.X)
+						{
+							Vx = 0;
+						}
+						//collision with the left end
+						if (tankCo.X + imgSize < w.wallStart.X && tankCo.X + imgSize + Vx > w.wallStart.X)
+						{
+							Vx = 0;
 						}
 					}
 				}
 				else if(w.vertical == true) //vertical
 				{
+					//check if tank can collide with wall's side
 					if (tankCo.Y >= w.wallStart.Y && tankCo.Y <= w.wallEnd.Y)
 					{
+						//collision with the wall from right
 						if (tankCo.X > w.wallStart.X && tankCo.X + Vx < w.wallStart.X)
 						{
-							if(Vx < 0)
-							{
-								Vx = 0;
-								Console.WriteLine("LEFT");
-							}
+							Vx = 0;
 						}
+						//collision with the wall from left
 						if (tankCo.X + imgSize < w.wallStart.X && tankCo.X  + imgSize + Vx > w.wallStart.X)
 						{
-							if (Vx > 0)
-							{
-								Vx = 0;
-								Console.WriteLine("RIGHT");
-							}
+							Vx = 0;
+						}
+					}
+					//checks if tank can collide with the walls end
+					if (tankCo.X < w.wallStart.X && tankCo.X + imgSize > w.wallStart.X)
+					{
+						//collision with the bottom end
+						if (tankCo.Y > w.wallEnd.Y && tankCo.Y + Vy < w.wallEnd.Y)
+						{
+							Vy = 0;
+						}
+						//collision with top end
+						if (tankCo.Y + imgSize < w.wallStart.Y && tankCo.Y + imgSize + Vy > w.wallStart.Y)
+						{
+							Vy = 0;
 						}
 					}
 				}
