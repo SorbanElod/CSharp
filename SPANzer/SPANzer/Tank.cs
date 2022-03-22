@@ -28,7 +28,7 @@ namespace SPANzer
 		private const float moveSpeed = 3.5f;
 		private const float angV = 5.5f;
 		private const int imgSize = 50;
-
+		int tmp = 0;
 		public PointF center;
 		public PointF cannon;
 
@@ -45,7 +45,6 @@ namespace SPANzer
 			this.tankCo = new PointF(x,y);
 			this.OldImg = Image.FromFile(str);
 			this.img = this.OldImg;
-			//this.center = new PointF(x + imgSize / 2, y + imgSize / 2);
 		}
 
 		public void DrawTank(Graphics e)
@@ -81,8 +80,9 @@ namespace SPANzer
 			dY = -(float)(Math.Cos((angle * 0.0174532925)));
 
 			//If it collides then one component of the velocity will be removed (Vx or Vy)
-			CollisionDetector();
-			
+			CollisionWithWalls();
+			CollisionWithTank();
+
 			tankCo.X += Vx;
 			tankCo.Y += Vy;
 
@@ -133,7 +133,28 @@ namespace SPANzer
 			return rotatedBmp;
 		}
 
-		public void CollisionDetector()
+		public void CollisionWithTank()
+		{
+			
+			//if vertically are in line
+			if(GameWindow.t1.tankCo.X + imgSize >= GameWindow.t2.tankCo.X && GameWindow.t1.tankCo.X <= GameWindow.t2.tankCo.X + imgSize)
+			{
+				//t1 from above, t2 from below
+				if(GameWindow.t1.tankCo.Y + imgSize <= GameWindow.t2.tankCo.Y && GameWindow.t1.tankCo.Y + imgSize + GameWindow.t1.Vy >= GameWindow.t2.tankCo.Y - GameWindow.t2.Vy)
+				{
+					Console.WriteLine("YEOOPP" +  ++tmp );
+					GameWindow.t1.Vy = 0;
+				}
+				if (GameWindow.t2.tankCo.Y + imgSize <= GameWindow.t1.tankCo.Y && GameWindow.t2.tankCo.Y + imgSize + GameWindow.t2.Vy >= GameWindow.t1.tankCo.Y - GameWindow.t1.Vy)
+				{
+					Console.WriteLine("YEOOPP" + ++tmp);
+					GameWindow.t2.Vy = 0;
+				}
+			}
+			
+		}
+
+		public void CollisionWithWalls()
 		{
 			foreach (Brick w in GameWindow.wall.allWalls)
 			{

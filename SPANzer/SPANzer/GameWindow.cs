@@ -52,16 +52,18 @@ namespace SPANzer
 		}
 		public void t1Hit()
 		{
-			GameTimer.Enabled = false;
-			fireRate.Enabled = false;
+			//GameTimer.Enabled = false;
+			//fireRate.Enabled = false;
 			p2++;
+			label1.Text = p1 + ": " + p2;
 		}
 
 		public void t2Hit()
 		{
-			GameTimer.Enabled = false;
-			fireRate.Enabled = false;
+			//GameTimer.Enabled = false;
+			//fireRate.Enabled = false;
 			p1++;
+			label1.Text = p1 + ": " + p2;
 		}
 
 		private void pCanvas_Paint(object sender, PaintEventArgs e)
@@ -75,6 +77,16 @@ namespace SPANzer
 		
 		private void GameTimer_Tick(object sender, EventArgs e)
 		{
+			if (t1.hit)
+			{
+				t1.hit = false;
+				t1Hit();
+			}
+			if (t2.hit)
+			{
+				t2.hit = false;
+				t2Hit();
+			}
 			t1.MoveTank();
 			t2.MoveTank();
 			b1.MoveBullets();
