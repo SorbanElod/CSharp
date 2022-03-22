@@ -9,13 +9,13 @@ namespace SPANzer
 {
 	public class Ball
 	{
-		private const float ballRadius = 3f;
-		private const float bulletSpeed = 3;
+		private const float ballRadius = 2.5f;
+		private const float bulletSpeed = 5;
 		public float vX, vY;
 		public PointF center;
 		private Color color;
 		public DateTimeOffset created;
-		public TimeSpan lifeTime = TimeSpan.FromSeconds(10);
+		public TimeSpan lifeTime = TimeSpan.FromSeconds(5);
 
 		public Ball(PointF center, float dX, float dY)
 		{

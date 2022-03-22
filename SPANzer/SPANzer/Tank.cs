@@ -9,28 +9,32 @@ namespace SPANzer
 {
 	public class Tank
 	{
+		private const int cannonLength = 25;
 		public bool tUp { get; set; }
 		public bool tLeft { get; set; }
 		public bool tDown { get; set; }
 		public bool tRight { get; set; }
 		public PointF tankCo = new PointF();
 		public float angle = 0f;
+		public bool hit;
+
 		public static int CanvasHeight;
-		public bool up, down, left, right;
-		public float dX, dY;
 		private Image OldImg;
 		private Image img;
+		
+		public float dX, dY;
 		private float Vx, Vy;
+
 		private const float moveSpeed = 3.5f;
 		private const float angV = 5.5f;
 		private const int imgSize = 50;
+
+		public PointF center;
 		public PointF cannon;
+
 		public Tank(string str, int x, int y)
 		{
-			this.up = false;
-			this.down = false;
-			this.left = false;
-			this.right = false;
+			this.hit = false;
 			this.Vx = 0;
 			this.Vy = 0;
 			this.tUp = false;
@@ -41,7 +45,7 @@ namespace SPANzer
 			this.tankCo = new PointF(x,y);
 			this.OldImg = Image.FromFile(str);
 			this.img = this.OldImg;
-			this.cannon = new PointF(x + imgSize / 2, y + imgSize / 2);
+			//this.center = new PointF(x + imgSize / 2, y + imgSize / 2);
 		}
 
 		public void DrawTank(Graphics e)
@@ -81,8 +85,12 @@ namespace SPANzer
 			
 			tankCo.X += Vx;
 			tankCo.Y += Vy;
-			cannon.X = tankCo.X + imgSize / 2;
-			cannon.Y = tankCo.Y + imgSize / 2 ;
+
+			center.X = tankCo.X + imgSize / 2;
+			center.Y = tankCo.Y + imgSize / 2 ;
+
+			cannon.X = center.X + (float)((cannonLength * Math.Sin((angle * 0.0174532925))));
+			cannon.Y = center.Y - (float)((cannonLength * Math.Cos((angle * 0.0174532925))));
 
 			if (tLeft)
 			{

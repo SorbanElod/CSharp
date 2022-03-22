@@ -30,20 +30,16 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			this.pControl = new System.Windows.Forms.Panel();
-			this.label3 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.timer1 = new System.Windows.Forms.Timer(this.components);
+			this.GameTimer = new System.Windows.Forms.Timer(this.components);
 			this.pCanvas = new System.Windows.Forms.PictureBox();
-			this.timer2 = new System.Windows.Forms.Timer(this.components);
+			this.fireRate = new System.Windows.Forms.Timer(this.components);
 			this.pControl.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pCanvas)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// pControl
 			// 
-			this.pControl.Controls.Add(this.label3);
-			this.pControl.Controls.Add(this.label2);
 			this.pControl.Controls.Add(this.label1);
 			this.pControl.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pControl.Location = new System.Drawing.Point(0, 683);
@@ -51,37 +47,20 @@
 			this.pControl.Size = new System.Drawing.Size(1482, 100);
 			this.pControl.TabIndex = 0;
 			// 
-			// label3
-			// 
-			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(972, 39);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(44, 16);
-			this.label3.TabIndex = 4;
-			this.label3.Text = "label3";
-			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(65, 39);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(44, 16);
-			this.label2.TabIndex = 1;
-			this.label2.Text = "label2";
-			// 
 			// label1
 			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(557, 30);
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+			this.label1.Location = new System.Drawing.Point(669, 21);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(44, 16);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "label1";
+			this.label1.Size = new System.Drawing.Size(203, 51);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "label2";
+			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// timer1
+			// GameTimer
 			// 
-			this.timer1.Interval = 1;
-			this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+			this.GameTimer.Interval = 1;
+			this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
 			// 
 			// pCanvas
 			// 
@@ -93,10 +72,9 @@
 			this.pCanvas.TabStop = false;
 			this.pCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.pCanvas_Paint);
 			// 
-			// timer2
+			// fireRate
 			// 
-			this.timer2.Interval = 1;
-			this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+			this.fireRate.Tick += new System.EventHandler(this.fireRate_Tick);
 			// 
 			// GameWindow
 			// 
@@ -111,11 +89,10 @@
 			this.Name = "GameWindow";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "SPanzerKampfWagen";
-			this.Load += new System.EventHandler(this.Form1_Load);
-			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-			this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
+			this.Load += new System.EventHandler(this.GameWindow_Load);
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GameWindow_KeyDown);
+			this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.GameWindow_KeyUp);
 			this.pControl.ResumeLayout(false);
-			this.pControl.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pCanvas)).EndInit();
 			this.ResumeLayout(false);
 
@@ -124,12 +101,10 @@
 		#endregion
 
 		private System.Windows.Forms.Panel pControl;
-		private System.Windows.Forms.Timer timer1;
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Timer GameTimer;
 		private System.Windows.Forms.PictureBox pCanvas;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.Timer timer2;
-		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Timer fireRate;
+		private System.Windows.Forms.Label label1;
 	}
 }
 
