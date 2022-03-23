@@ -32,7 +32,7 @@ namespace SPANzer
 		public PointF center;
 		public PointF cannon;
 
-		public Tank(string str, int x, int y)
+		public Tank(Bitmap str, int x, int y)
 		{
 			this.hit = false;
 			this.Vx = 0;
@@ -43,7 +43,7 @@ namespace SPANzer
 			this.tRight = false;
 			this.angle = 0f;
 			this.tankCo = new PointF(x,y);
-			this.OldImg = Image.FromFile(str);
+			this.OldImg = str;
 			this.img = this.OldImg;
 		}
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SPANzer.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,10 +21,10 @@ namespace SPANzer
 
 		public static Walls wall = new Walls();
 
-		public static Tank t1 = new Tank("PinkTank.png", 300, 300);
+		public static Tank t1 = new Tank(Resources.PinkTank, 300, 300);
 		public static Bullet b1 = new Bullet();
 
-		public static Tank t2 = new Tank("GreenTank.png", 20, 20);
+		public static Tank t2 = new Tank(Resources.GreenTank, 20, 20);
 		public static Bullet b2 = new Bullet();
 
 		bool t1Fire = false;
