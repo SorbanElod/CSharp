@@ -140,15 +140,56 @@ namespace SPANzer
 			if(GameWindow.t1.tankCo.X + imgSize >= GameWindow.t2.tankCo.X && GameWindow.t1.tankCo.X <= GameWindow.t2.tankCo.X + imgSize)
 			{
 				//t1 from above, t2 from below
-				if(GameWindow.t1.tankCo.Y + imgSize <= GameWindow.t2.tankCo.Y && GameWindow.t1.tankCo.Y + imgSize + GameWindow.t1.Vy >= GameWindow.t2.tankCo.Y - GameWindow.t2.Vy)
+				if(GameWindow.t1.tankCo.Y + imgSize < GameWindow.t2.tankCo.Y && GameWindow.t1.tankCo.Y + imgSize + GameWindow.t1.Vy > GameWindow.t2.tankCo.Y)
 				{
-					Console.WriteLine("YEOOPP" +  ++tmp );
 					GameWindow.t1.Vy = 0;
+					Console.WriteLine("t1 from above, t2 from below");
 				}
-				if (GameWindow.t2.tankCo.Y + imgSize <= GameWindow.t1.tankCo.Y && GameWindow.t2.tankCo.Y + imgSize + GameWindow.t2.Vy >= GameWindow.t1.tankCo.Y - GameWindow.t1.Vy)
+				//t2 above t1 below
+				if (GameWindow.t2.tankCo.Y + imgSize < GameWindow.t1.tankCo.Y && GameWindow.t2.tankCo.Y + imgSize + GameWindow.t2.Vy > GameWindow.t1.tankCo.Y)
 				{
-					Console.WriteLine("YEOOPP" + ++tmp);
 					GameWindow.t2.Vy = 0;
+					Console.WriteLine("t2 above t1 below");
+				}
+				//t1 from below t2 from above
+				if(GameWindow.t1.tankCo.Y >= GameWindow.t2.tankCo.Y + imgSize && GameWindow.t1.tankCo.Y + Vy <= GameWindow.t2.tankCo.Y + imgSize)
+				{
+					GameWindow.t1.Vy = 0;
+					Console.WriteLine("t1 from below t2 from above");
+				}
+				//t2 from below t1 from above
+				if (GameWindow.t2.tankCo.Y >= GameWindow.t1.tankCo.Y + imgSize && GameWindow.t2.tankCo.Y + Vy <= GameWindow.t1.tankCo.Y + imgSize)
+				{
+					GameWindow.t2.Vy = 0;
+					Console.WriteLine("t2 from below t1 from above");
+				}
+			}
+			//if horizontally are in line
+			if(GameWindow.t1.tankCo.Y + imgSize >= GameWindow.t2.tankCo.Y && GameWindow.t1.tankCo.Y < GameWindow.t2.tankCo.Y + imgSize)
+			{
+				//t1 from left, t2 from right
+				if (GameWindow.t1.tankCo.X + imgSize < GameWindow.t2.tankCo.X && GameWindow.t1.tankCo.X + imgSize + GameWindow.t1.Vx > GameWindow.t2.tankCo.X)
+				{
+					GameWindow.t1.Vx = 0;
+					Console.WriteLine("t1 from left, t2 from right");
+				}
+				//t2 from left t1 from right
+				if (GameWindow.t2.tankCo.X + imgSize < GameWindow.t1.tankCo.X && GameWindow.t2.tankCo.X + imgSize + GameWindow.t2.Vx > GameWindow.t1.tankCo.X)
+				{
+					GameWindow.t2.Vx = 0;
+					Console.WriteLine("t2 from left t1 from right");
+				}
+				//t1 from right t2 from left
+				if (GameWindow.t1.tankCo.X >= GameWindow.t2.tankCo.X + imgSize && GameWindow.t1.tankCo.X + Vx <= GameWindow.t2.tankCo.X + imgSize)
+				{
+					GameWindow.t1.Vx = 0;
+					Console.WriteLine("t1 from right t2 from left");
+				}
+				//t2 from right t1 from left
+				if (GameWindow.t2.tankCo.X >= GameWindow.t1.tankCo.X + imgSize && GameWindow.t2.tankCo.X + Vx <= GameWindow.t1.tankCo.X + imgSize)
+				{
+					GameWindow.t2.Vx = 0;
+					Console.WriteLine("t2 from right t1 from left");
 				}
 			}
 			

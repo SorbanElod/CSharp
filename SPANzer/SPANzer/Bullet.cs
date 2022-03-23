@@ -39,7 +39,7 @@ namespace SPANzer
 		
 		public void RemoveBullets()
 		{
-			foreach(Ball b in Bullets)
+			while(Bullets.Any())
 			{
 				Bullets.Dequeue();
 			}

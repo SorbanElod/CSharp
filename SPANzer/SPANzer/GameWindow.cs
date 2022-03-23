@@ -36,7 +36,7 @@ namespace SPANzer
 		{
 			pControl.BackColor = Color.LightGray;
 			Tank.CanvasHeight = pCanvas.Height;
-
+			label1.Text = p2 + " : " + p1;
 			GameTimer.Enabled = true;
 			//timer2.Enabled = true;
 			fireRate.Enabled = true;
@@ -52,20 +52,24 @@ namespace SPANzer
 		}
 		public void t1Hit()
 		{
-			//GameTimer.Enabled = false;
-			//fireRate.Enabled = false;
 			p2++;
-			label1.Text = p1 + ": " + p2;
+			endGame();
 		}
 
 		public void t2Hit()
 		{
+			p1++;
+			endGame();
+		} 
+		
+		private void endGame()
+		{
 			//GameTimer.Enabled = false;
 			//fireRate.Enabled = false;
-			p1++;
-			label1.Text = p1 + ": " + p2;
+			b1.RemoveBullets();
+			b2.RemoveBullets();
+			label1.Text = p2 + " : " + p1;
 		}
-
 		private void pCanvas_Paint(object sender, PaintEventArgs e)
 		{
 			wall.DrawWalls(e.Graphics);
