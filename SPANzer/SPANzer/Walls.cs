@@ -38,6 +38,12 @@ namespace SPANzer
 				allWalls.Add(new Brick(st, en));
 			}
 		}
+
+		public void RemoveWalls()
+		{
+			allWalls.Clear();
+		}
+
 		public void DrawWalls(Graphics g)
 		{
 			foreach (Brick w in allWalls)

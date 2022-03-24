@@ -59,9 +59,14 @@ namespace SPANzer
 		{
 			//GameTimer.Enabled = false;
 			//fireRate.Enabled = false;
-			b1.RemoveBullets();
-			b2.RemoveBullets();
+			//b1.RemoveBullets();
+			//b2.RemoveBullets();
 			label1.Text = p2 + " : " + p1;
+		}
+
+		private void Spawn()
+		{
+
 		}
 		private void pCanvas_Paint(object sender, PaintEventArgs e)
 		{

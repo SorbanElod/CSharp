@@ -8,7 +8,7 @@ namespace SPANzer
 	public class Bullet
 	{
 		private float hitBoxRadius = 20f;
-		private const int bulletNumber = 5;
+		private const int bulletNumber = 50;
 		public Queue<Ball> Bullets;
 		public int i = 0;
 		public Bullet()
@@ -37,10 +37,7 @@ namespace SPANzer
 		
 		public void RemoveBullets()
 		{
-			while(Bullets.Any())
-			{
-				Bullets.Dequeue();
-			}
+			Bullets.Clear();
 		}
 
 		public void MoveBullets()
