@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace SPANzer
 {
@@ -17,7 +14,6 @@ namespace SPANzer
 		public PointF tankCo = new PointF();
 		public float angle = 0f;
 		public bool hit;
-
 		public static int CanvasHeight;
 		private Image OldImg;
 		private Image img;
@@ -32,7 +28,7 @@ namespace SPANzer
 		public PointF center;
 		public PointF cannon;
 
-		public Tank(Bitmap str, int x, int y)
+		public Tank(String fileName, int x, int y)
 		{
 			this.hit = false;
 			this.Vx = 0;
@@ -43,7 +39,8 @@ namespace SPANzer
 			this.tRight = false;
 			this.angle = 0f;
 			this.tankCo = new PointF(x,y);
-			this.OldImg = str;
+			string path = Path.Combine(Environment.CurrentDirectory, @"Resources\Images\", fileName);
+			this.OldImg = Image.FromFile(path);
 			this.img = this.OldImg;
 		}
 
@@ -143,25 +140,21 @@ namespace SPANzer
 				if(GameWindow.t1.tankCo.Y + imgSize < GameWindow.t2.tankCo.Y && GameWindow.t1.tankCo.Y + imgSize + GameWindow.t1.Vy > GameWindow.t2.tankCo.Y)
 				{
 					GameWindow.t1.Vy = 0;
-					Console.WriteLine("t1 from above, t2 from below");
 				}
 				//t2 above t1 below
 				if (GameWindow.t2.tankCo.Y + imgSize < GameWindow.t1.tankCo.Y && GameWindow.t2.tankCo.Y + imgSize + GameWindow.t2.Vy > GameWindow.t1.tankCo.Y)
 				{
 					GameWindow.t2.Vy = 0;
-					Console.WriteLine("t2 above t1 below");
 				}
 				//t1 from below t2 from above
 				if(GameWindow.t1.tankCo.Y >= GameWindow.t2.tankCo.Y + imgSize && GameWindow.t1.tankCo.Y + Vy <= GameWindow.t2.tankCo.Y + imgSize)
 				{
 					GameWindow.t1.Vy = 0;
-					Console.WriteLine("t1 from below t2 from above");
 				}
 				//t2 from below t1 from above
 				if (GameWindow.t2.tankCo.Y >= GameWindow.t1.tankCo.Y + imgSize && GameWindow.t2.tankCo.Y + Vy <= GameWindow.t1.tankCo.Y + imgSize)
 				{
 					GameWindow.t2.Vy = 0;
-					Console.WriteLine("t2 from below t1 from above");
 				}
 			}
 			//if horizontally are in line
@@ -171,25 +164,21 @@ namespace SPANzer
 				if (GameWindow.t1.tankCo.X + imgSize < GameWindow.t2.tankCo.X && GameWindow.t1.tankCo.X + imgSize + GameWindow.t1.Vx > GameWindow.t2.tankCo.X)
 				{
 					GameWindow.t1.Vx = 0;
-					Console.WriteLine("t1 from left, t2 from right");
 				}
 				//t2 from left t1 from right
 				if (GameWindow.t2.tankCo.X + imgSize < GameWindow.t1.tankCo.X && GameWindow.t2.tankCo.X + imgSize + GameWindow.t2.Vx > GameWindow.t1.tankCo.X)
 				{
 					GameWindow.t2.Vx = 0;
-					Console.WriteLine("t2 from left t1 from right");
 				}
 				//t1 from right t2 from left
 				if (GameWindow.t1.tankCo.X >= GameWindow.t2.tankCo.X + imgSize && GameWindow.t1.tankCo.X + Vx <= GameWindow.t2.tankCo.X + imgSize)
 				{
 					GameWindow.t1.Vx = 0;
-					Console.WriteLine("t1 from right t2 from left");
 				}
 				//t2 from right t1 from left
 				if (GameWindow.t2.tankCo.X >= GameWindow.t1.tankCo.X + imgSize && GameWindow.t2.tankCo.X + Vx <= GameWindow.t1.tankCo.X + imgSize)
 				{
 					GameWindow.t2.Vx = 0;
-					Console.WriteLine("t2 from right t1 from left");
 				}
 			}
 			

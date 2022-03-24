@@ -1,13 +1,5 @@
-﻿using SPANzer.Properties;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SPANzer
@@ -21,10 +13,10 @@ namespace SPANzer
 
 		public static Walls wall = new Walls();
 
-		public static Tank t1 = new Tank(Resources.PinkTank, 300, 300);
+		public static Tank t1 = new Tank("PinkTank.png", 300, 300);
 		public static Bullet b1 = new Bullet();
 
-		public static Tank t2 = new Tank(Resources.GreenTank, 20, 20);
+		public static Tank t2 = new Tank("GreenTank.png", 20, 20);
 		public static Bullet b2 = new Bullet();
 
 		bool t1Fire = false;
@@ -49,7 +41,7 @@ namespace SPANzer
 			wall.LB = new PointF(pCanvas.Left + 5, pCanvas.Bottom - 5);
 			wall.RB = new PointF(pCanvas.Right - 5, pCanvas.Bottom - 5);
 			wall.RT = new PointF(pCanvas.Right - 5, pCanvas.Top + 5);
-			wall.Build();
+			wall.Build("walls.txt");
 		}
 		public void t1Hit()
 		{

@@ -59,42 +59,5 @@ namespace SPANzer.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap GreenTank {
-            get {
-                object obj = ResourceManager.GetObject("GreenTank", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap PinkTank {
-            get {
-                object obj = ResourceManager.GetObject("PinkTank", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to # Coordinates of walls
-        ///# Please ENter Coordinates in order
-        ///# The order is START.X START.Y END.X END.Y
-        ///# Separate them with simple spaces
-        ///# Comment lines with the # symbol
-        ///# Only vertical or horizontal walls
-        ///# Here Starts Your Custom Map
-        ///200 200 500 200
-        ///200 200 200 400.
-        /// </summary>
-        internal static string walls {
-            get {
-                return ResourceManager.GetString("walls", resourceCulture);
-            }
-        }
     }
 }

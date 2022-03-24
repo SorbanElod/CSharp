@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SPANzer.Properties;
+
 namespace SPANzer
 {
 	public class Walls
@@ -13,7 +10,7 @@ namespace SPANzer
 		public List<Brick> allWalls = new List<Brick>();
 		public PointF LT, RT, RB, LB;
 		
-		public void Build()
+		public void Build(string fileName)
 		{
 			
 			allWalls.Add(new Brick(LT, RT));
@@ -24,7 +21,8 @@ namespace SPANzer
 			PointF st = new PointF();
 			PointF en = new PointF();
 			string str;
-			StreamReader f = new StreamReader("walls.txt");
+			string path = Path.Combine(Environment.CurrentDirectory, @"Resources\Maps\", fileName);
+			StreamReader f = new StreamReader(path);
 			while (f.EndOfStream == false)
 			{
 				do
