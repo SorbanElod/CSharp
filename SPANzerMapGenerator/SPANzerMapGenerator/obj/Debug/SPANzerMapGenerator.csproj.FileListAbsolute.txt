@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\bin\Debug\SPANzerMapGenerator.exe.config
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\bin\Debug\SPANzerMapGenerator.exe
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\bin\Debug\SPANzerMapGenerator.pdb
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.exe
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.pdb
+D:\Iskola\Info\XII.A\C#\SPANzerMapGenerator\SPANzerMapGenerator\obj\Debug\SPANzerMapGenerator.Main.resources

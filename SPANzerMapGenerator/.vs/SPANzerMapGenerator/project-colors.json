@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1d89d9ed-5991-4df9-b65a-2f6cd4d75bd4": {
+      "ProjectGuid": "1d89d9ed-5991-4df9-b65a-2f6cd4d75bd4",
+      "DisplayName": "SPANzerMapGenerator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

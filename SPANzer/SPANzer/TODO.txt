@@ -1,5 +1,5 @@
-﻿Game Controller
+﻿Maps should have spawn coordinates
+Game Controller
+Multiple Maps
 Menu
 Help
-Multiple Maps
-Maps should have spawn coordinates

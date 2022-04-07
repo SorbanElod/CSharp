@@ -1,9 +1,10 @@
-﻿using System;
+﻿using SPANzerMapGenerator;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 
-namespace SPANzer
+namespace SPANzerMapGenerator
 {
 	public class Walls
 	{
@@ -27,18 +28,18 @@ namespace SPANzer
 				{
 					str = f.ReadLine();
 				} while (str.Contains("#"));
-				if(spawned == false)
+				if (spawned == false)
 				{
 					string[] spNum = str.Split(' ');
-					GameWindow.t1Spawn.X = int.Parse(spNum[0]);
-					GameWindow.t1Spawn.Y = int.Parse(spNum[1]);
+					Main.t1Spawn.X = int.Parse(spNum[0]);
+					Main.t1Spawn.Y = int.Parse(spNum[0]);
 					do
 					{
 						str = f.ReadLine();
 					} while (str.Contains("#"));
 					spNum = str.Split(' ');
-					GameWindow.t2Spawn.X = int.Parse(spNum[0]);
-					GameWindow.t2Spawn.Y = int.Parse(spNum[1]);
+					Main.t2Spawn.X = int.Parse(spNum[0]);
+					Main.t2Spawn.Y = int.Parse(spNum[0]);
 					spawned = true;
 				}
 				else
@@ -51,11 +52,6 @@ namespace SPANzer
 					allWalls.Add(new Brick(st, en));
 				}
 			}
-		}
-
-		public void RemoveWalls()
-		{
-			allWalls.Clear();
 		}
 
 		public void DrawWalls(Graphics g)

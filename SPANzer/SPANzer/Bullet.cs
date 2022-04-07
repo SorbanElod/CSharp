@@ -8,7 +8,7 @@ namespace SPANzer
 	public class Bullet
 	{
 		private float hitBoxRadius = 20f;
-		private const int bulletNumber = 50;
+		private const int bulletNumber = 5;
 		public Queue<Ball> Bullets;
 		public int i = 0;
 		public Bullet()
@@ -48,6 +48,10 @@ namespace SPANzer
 				CollisionWithTank(b);
 				b.center.X += b.vX;
 				b.center.Y += b.vY;
+				if (DateTime.Now - b.created >= b.lifeTime - TimeSpan.FromMilliseconds(150))
+				{
+					if (b.opacity + 15 <= 255) b.opacity += 15;
+				}
 			}
 				
 		}

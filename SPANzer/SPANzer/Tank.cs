@@ -7,6 +7,7 @@ namespace SPANzer
 	public class Tank
 	{
 		private const int cannonLength = 25;
+		private const float friction = 0.66f;
 		public bool tUp { get; set; }
 		public bool tLeft { get; set; }
 		public bool tDown { get; set; }
@@ -17,14 +18,13 @@ namespace SPANzer
 		public static int CanvasHeight;
 		private Image OldImg;
 		private Image img;
-		
+		Image transparent = Image.FromFile(Path.Combine(Environment.CurrentDirectory, @"Resources\Images\", "Transparent.png"));
 		public float dX, dY;
 		private float Vx, Vy;
 
 		private const float moveSpeed = 3.5f;
-		private const float angV = 5.5f;
+		private const float angV = 4.5f;
 		private const int imgSize = 50;
-		int tmp = 0;
 		public PointF center;
 		public PointF cannon;
 
@@ -42,6 +42,11 @@ namespace SPANzer
 			string path = Path.Combine(Environment.CurrentDirectory, @"Resources\Images\", fileName);
 			this.OldImg = Image.FromFile(path);
 			this.img = this.OldImg;
+		}
+
+		public void Kill()
+		{
+			img = transparent;
 		}
 
 		public void DrawTank(Graphics e)
@@ -191,17 +196,19 @@ namespace SPANzer
 				if(w.vertical == false) // horizontal wall
 				{
 					//check if tank can collide with wall's side
-					if (tankCo.X >= w.wallStart.X && tankCo.X <= w.wallEnd.X)
+					if (tankCo.X + imgSize >= w.wallStart.X && tankCo.X <= w.wallEnd.X)
 					{
 						//collision with tehe wall above
 						if (tankCo.Y > w.wallStart.Y && tankCo.Y + Vy < w.wallStart.Y)
 						{
 							Vy = 0;
+							Vx *= friction;
 						}
 						//collision with the wall below
 						if (tankCo.Y + imgSize < w.wallStart.Y && tankCo.Y + imgSize + Vy > w.wallStart.Y)
 						{
 							Vy = 0;
+							Vx *= friction;
 						}
 					}
 					//checks if tank can collide with the walls end
@@ -211,28 +218,32 @@ namespace SPANzer
 						if (tankCo.X > w.wallEnd.X && tankCo.X + Vx < w.wallEnd.X)
 						{
 							Vx = 0;
+							Vy *= friction;
 						}
 						//collision with the left end
 						if (tankCo.X + imgSize < w.wallStart.X && tankCo.X + imgSize + Vx > w.wallStart.X)
 						{
 							Vx = 0;
+							Vy *= friction;
 						}
 					}
 				}
 				else if(w.vertical == true) //vertical
 				{
 					//check if tank can collide with wall's side
-					if (tankCo.Y >= w.wallStart.Y && tankCo.Y <= w.wallEnd.Y)
+					if (tankCo.Y + imgSize >= w.wallStart.Y && tankCo.Y <= w.wallEnd.Y)
 					{
 						//collision with the wall from right
 						if (tankCo.X > w.wallStart.X && tankCo.X + Vx < w.wallStart.X)
 						{
 							Vx = 0;
+							Vy *= friction;
 						}
 						//collision with the wall from left
 						if (tankCo.X + imgSize < w.wallStart.X && tankCo.X  + imgSize + Vx > w.wallStart.X)
 						{
 							Vx = 0;
+							Vy *= friction;
 						}
 					}
 					//checks if tank can collide with the walls end
@@ -242,11 +253,13 @@ namespace SPANzer
 						if (tankCo.Y > w.wallEnd.Y && tankCo.Y + Vy < w.wallEnd.Y)
 						{
 							Vy = 0;
+							Vx *= friction;
 						}
 						//collision with top end
 						if (tankCo.Y + imgSize < w.wallStart.Y && tankCo.Y + imgSize + Vy > w.wallStart.Y)
 						{
 							Vy = 0;
+							Vx *= friction;
 						}
 					}
 				}
