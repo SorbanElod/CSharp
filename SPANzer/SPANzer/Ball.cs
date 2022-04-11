@@ -9,7 +9,7 @@ namespace SPANzer
 {
 	public class Ball
 	{
-		private const float ballRadius = 2.5f;
+		public const float ballRadius = 2.5f;
 		private const float bulletSpeed = 5;
 		public float vX, vY;
 		public PointF center;

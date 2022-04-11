@@ -84,7 +84,7 @@ namespace SPANzer
 						}
 					}
 					//checks if bullet can collide with the walls end
-					if (b.center.Y <= w.wallStart.Y && b.center.Y >= w.wallStart.Y)
+					if (b.center.Y - Ball.ballRadius <= w.wallStart.Y && b.center.Y + Ball.ballRadius >= w.wallStart.Y)
 					{
 						//collision with the right end
 						if (b.center.X >= w.wallEnd.X && b.center.X + b.vX <= w.wallEnd.X)
@@ -115,7 +115,7 @@ namespace SPANzer
 						}
 					}
 					//checks if bullet can collide with the walls end
-					if (b.center.X <= w.wallStart.X && b.center.X >= w.wallStart.X)
+					if (b.center.X - Ball.ballRadius <= w.wallStart.X && b.center.X + Ball.ballRadius >= w.wallStart.X)
 					{
 						//collision with the bottom end
 						if (b.center.Y >= w.wallEnd.Y && b.center.Y + b.vY <= w.wallEnd.Y)

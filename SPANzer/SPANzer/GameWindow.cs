@@ -34,10 +34,11 @@ namespace SPANzer
 		{
 			Random RNG = new Random();
 			int mapNum = Directory.GetFiles(path, "*", SearchOption.TopDirectoryOnly).Length;
-			int i = RNG.Next(1,mapNum);
-			//string map = "walls" + i.ToString() + ".txt";
-			string map = "walls3.txt";
+			int i = RNG.Next(1,mapNum + 1);
+			string map = "walls" + i.ToString() + ".txt";
+			//map = "walls26.txt";
 			wall.RemoveWalls();
+			Console.WriteLine(i);
 			wall.Build(map);
 			t1 = new Tank("PinkTank.png", t1Spawn.X, t1Spawn.Y);
 			t2 = new Tank("GreenTank.png", t2Spawn.X, t2Spawn.Y);
@@ -154,7 +155,7 @@ namespace SPANzer
 			if (e.KeyCode == Keys.Left) t1.tLeft = false;
 			if (e.KeyCode == Keys.Down) t1.tDown = false;
 			if (e.KeyCode == Keys.Right) t1.tRight = false;
-			if (e.KeyCode == Keys.Space) t1Fire = false;
+			if (e.KeyCode == Keys.M) t1Fire = false;
 
 			if (e.KeyCode == Keys.W) t2.tUp = false;
 			if (e.KeyCode == Keys.A) t2.tLeft = false;
@@ -169,7 +170,7 @@ namespace SPANzer
 			if (e.KeyCode == Keys.Left) t1.tLeft = true;
 			if (e.KeyCode == Keys.Down) t1.tDown = true;
 			if (e.KeyCode == Keys.Right) t1.tRight = true;
-			if (e.KeyCode == Keys.Space) t1Fire = true;
+			if (e.KeyCode == Keys.M) t1Fire = true;
 
 			if (e.KeyCode == Keys.W) t2.tUp = true;
 			if (e.KeyCode == Keys.A) t2.tLeft = true;

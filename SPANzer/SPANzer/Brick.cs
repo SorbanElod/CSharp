@@ -11,7 +11,7 @@ namespace SPANzer
 	{
 		public PointF wallStart { get; set; }
 		public PointF wallEnd { get; set; }
-		private const float WALL_THICKNESS = 3;
+		public const float WALL_THICKNESS = 3;
 		public bool vertical;      //true if vertical, false if horizontal
 		private Color color;
 

@@ -13,7 +13,7 @@ namespace SPANzer
 		public bool tDown { get; set; }
 		public bool tRight { get; set; }
 		public PointF tankCo = new PointF();
-		public float angle = 0f;
+		public float angle;
 		public bool hit;
 		public static int CanvasHeight;
 		private Image OldImg;
