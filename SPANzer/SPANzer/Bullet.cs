@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-
 namespace SPANzer
 {
 	public class Bullet
@@ -34,7 +33,6 @@ namespace SPANzer
 				Bullets.Enqueue(new Ball(start,vX,vY));
 			}
 		}
-		
 		public void RemoveBullets()
 		{
 			Bullets.Clear();
@@ -45,7 +43,8 @@ namespace SPANzer
 			foreach (Ball b in Bullets)
 			{
 				CollisionWithWalls(b);
-				CollisionWithTank(b);
+				AdvancedCollisionWithTank(b,GameWindow.t1);
+				AdvancedCollisionWithTank(b,GameWindow.t2);
 				b.center.X += b.vX;
 				b.center.Y += b.vY;
 				if (DateTime.Now - b.created >= b.lifeTime - TimeSpan.FromMilliseconds(150))
@@ -131,9 +130,17 @@ namespace SPANzer
 				}
 			}
 		}
-
+		public void AdvancedCollisionWithTank(Ball b, Tank t)
+		{
+				//√[(x₂ - x₁)² + (y₂ - y₁)²]
+			if(Math.Sqrt(Math.Pow((b.center.X - t.center.X), 2)+ Math.Pow((b.center.Y - t.center.Y), 2)) <= hitBoxRadius)
+			{
+				t.hit = true;
+			}
+		}
 		public void CollisionWithTank(Ball b)
 		{
+			
 			//Tank1
 			if(b.center.Y >= GameWindow.t1.center.Y - hitBoxRadius && b.center.Y <= GameWindow.t1.center.Y + hitBoxRadius)
 			{
