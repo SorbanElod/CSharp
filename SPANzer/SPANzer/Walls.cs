@@ -9,6 +9,7 @@ namespace SPANzer
 	{
 		public List<Brick> allWalls = new List<Brick>();
 		public PointF LT, RT, RB, LB;
+
 		public void Build(string fileName)
 		{
 			allWalls.Add(new Brick(LT, RT));

@@ -114,13 +114,6 @@ namespace SPANzer
 				}
 				img = RotateImage(OldImg, angle);
 			}
-			/*
-			Console.WriteLine("vX = " + Vx.ToString() + "     vY = " + Vy.ToString());
-			Console.WriteLine("X: " + tankCo.X.ToString() + " Y: " + tankCo.Y.ToString() + " Ang: " + angle.ToString());
-			Console.WriteLine("tUp " + tUp.ToString() + " tDown " + tDown.ToString());
-			Console.WriteLine("tLeft " + tLeft.ToString() + " tRight " + tRight.ToString());
-			//Console.Write("\n");
-			*/
 		}
 
 		public static Bitmap RotateImage(Image image, float angle)

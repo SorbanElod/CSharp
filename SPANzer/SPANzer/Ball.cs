@@ -27,6 +27,7 @@ namespace SPANzer
 			this.center = center;
 			this.created = DateTime.Now;
 		}
+
 		internal void Draw(Graphics g)
 		{
 			Pen p = new Pen(color);

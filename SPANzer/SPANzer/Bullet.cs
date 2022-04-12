@@ -10,6 +10,7 @@ namespace SPANzer
 		private const int bulletNumber = 5;
 		public Queue<Ball> Bullets;
 		public int i = 0;
+		
 		public Bullet()
 		{
 			Bullets = new Queue<Ball>(bulletNumber);
@@ -33,6 +34,7 @@ namespace SPANzer
 				Bullets.Enqueue(new Ball(start,vX,vY));
 			}
 		}
+		
 		public void RemoveBullets()
 		{
 			Bullets.Clear();
@@ -130,6 +132,7 @@ namespace SPANzer
 				}
 			}
 		}
+
 		public void AdvancedCollisionWithTank(Ball b, Tank t)
 		{
 				//√[(x₂ - x₁)² + (y₂ - y₁)²]
@@ -138,6 +141,7 @@ namespace SPANzer
 				t.hit = true;
 			}
 		}
+		/* Useless Spaghetti Code
 		public void CollisionWithTank(Ball b)
 		{
 			
@@ -195,7 +199,7 @@ namespace SPANzer
 					GameWindow.t2.hit = true;
 				}
 			}
-		}
+		}*/
 	}
 }
  

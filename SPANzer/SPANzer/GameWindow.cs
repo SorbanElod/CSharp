@@ -11,6 +11,7 @@ namespace SPANzer
 		{
 			InitializeComponent();
 		}
+
 		private DateTime tNow;
 		public static Walls wall = new Walls();
 		public static Point t1Spawn;
@@ -35,6 +36,7 @@ namespace SPANzer
 			Random RNG = new Random();
 			int mapNum = Directory.GetFiles(path, "*", SearchOption.TopDirectoryOnly).Length;
 			int i = RNG.Next(1,mapNum + 1);
+			i = 26;
 			string map = "walls" + i.ToString() + ".txt";
 			//map = "walls26.txt";
 			wall.RemoveWalls();

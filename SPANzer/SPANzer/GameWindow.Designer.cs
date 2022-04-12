@@ -102,6 +102,7 @@
 			this.Controls.Add(this.pControl);
 			this.DoubleBuffered = true;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.KeyPreview = true;
 			this.MaximizeBox = false;
 			this.Name = "GameWindow";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
