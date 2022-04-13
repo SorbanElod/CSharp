@@ -1,0 +1,33 @@
+# Coordinates of walls
+# Please ENter Coordinates in order
+# The order is START.X START.Y END.X END.Y
+# Separate them with simple spaces
+# Comment lines with the # symbol
+# Only vertical or horizontal walls
+# Start with the spawn coordinates
+# MAX X = 1000
+# MIN X = 5
+# MAX Y = 500
+# MIN Y = 5
+# Here Starts Your Custom Map
+# NoEscape # NoWhereToHide
+50 50
+900 400
+200 5 200 200
+100 200 200 200
+5 300 100 300
+200 300 300 300
+300 300 300 200
+100 400 200 400
+300 400 400 400
+400 400 400 100
+500 5 500 200
+500 400 500 500
+600 100 900 100
+600 300 600 500
+600 100 600 200
+700 200 700 300
+700 200 700 300
+700 200 900 200
+800 300 900 300
+800 400 800 500
