@@ -36,7 +36,7 @@ namespace SPANzer
 			Random RNG = new Random();
 			int mapNum = Directory.GetFiles(path, "*", SearchOption.TopDirectoryOnly).Length;
 			int i = RNG.Next(1,mapNum + 1);
-			i = 26;
+			//i = 26;
 			string map = "walls" + i.ToString() + ".txt";
 			//map = "walls26.txt";
 			wall.RemoveWalls();
@@ -159,10 +159,10 @@ namespace SPANzer
 			if (e.KeyCode == Keys.Right) t1.tRight = false;
 			if (e.KeyCode == Keys.M) t1Fire = false;
 
-			if (e.KeyCode == Keys.W) t2.tUp = false;
-			if (e.KeyCode == Keys.A) t2.tLeft = false;
-			if (e.KeyCode == Keys.S) t2.tDown = false;
-			if (e.KeyCode == Keys.D) t2.tRight = false;
+			if (e.KeyCode == Keys.E) t2.tUp = false;
+			if (e.KeyCode == Keys.S) t2.tLeft = false;
+			if (e.KeyCode == Keys.D) t2.tDown = false;
+			if (e.KeyCode == Keys.F) t2.tRight = false;
 			if (e.KeyCode == Keys.Q) t2Fire = false;
 		}
 
@@ -174,10 +174,10 @@ namespace SPANzer
 			if (e.KeyCode == Keys.Right) t1.tRight = true;
 			if (e.KeyCode == Keys.M) t1Fire = true;
 
-			if (e.KeyCode == Keys.W) t2.tUp = true;
-			if (e.KeyCode == Keys.A) t2.tLeft = true;
-			if (e.KeyCode == Keys.S) t2.tDown = true;
-			if (e.KeyCode == Keys.D) t2.tRight = true;
+			if (e.KeyCode == Keys.E) t2.tUp = true;
+			if (e.KeyCode == Keys.S) t2.tLeft = true;
+			if (e.KeyCode == Keys.D) t2.tDown = true;
+			if (e.KeyCode == Keys.F) t2.tRight = true;
 			if (e.KeyCode == Keys.Q) t2Fire = true;
 		}
 	}

@@ -8,3 +8,4 @@ D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Release\SPANzer.csproj.GenerateResou
 D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Release\SPANzer.csproj.CoreCompileInputs.cache
 D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Release\SPANzer.exe
 D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Release\SPANzer.pdb
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Release\SPANzer.csproj.AssemblyReference.cache
