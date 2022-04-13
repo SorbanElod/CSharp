@@ -1,0 +1,11 @@
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.csproj.AssemblyReference.cache
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.csproj.SuggestedBindingRedirects.cache
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.Properties.Resources.resources
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.csproj.GenerateResource.cache
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.csproj.CoreCompileInputs.cache
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\bin\Debug\SPANzer.exe.config
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\bin\Debug\SPANzer.exe
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\bin\Debug\SPANzer.pdb
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.exe
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.pdb
+D:\Iskola\Info\XII.A\C#\SPANzer\SPANzer\obj\Debug\SPANzer.GameWindow.resources
