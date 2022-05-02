@@ -23,7 +23,7 @@ namespace SPANzer
 		private float Vx, Vy;
 
 		private const float moveSpeed = 3.5f;
-		private const float angV = 4.5f;
+		private const float angV = 4f;
 		private const int imgSize = 50;
 		public PointF center;
 		public PointF cannon;
@@ -97,6 +97,7 @@ namespace SPANzer
 			if (tLeft)
 			{
 				angle -= angV;
+				if (angle == 45f || angle == 135f || angle == 225 || angle == 315f) angle -= 1;
 				if (angle < 0)
 				{
 					angle = 360 + angle;
@@ -107,6 +108,7 @@ namespace SPANzer
 			if (tRight)
 			{
 				angle += angV;
+				if (angle == 45f || angle == 135f || angle == 225 || angle == 315f) angle += 1;
 				angle = angle % 360;
 				if (angle < 0)
 				{

@@ -137,6 +137,7 @@ namespace SPANzer
 		private void Refresh_Tick(object sender, EventArgs e)
 		{
 			pCanvas.Refresh();
+			Console.WriteLine(t1.angle.ToString());
 		}
 
 		private void fireRate_Tick(object sender, EventArgs e)
