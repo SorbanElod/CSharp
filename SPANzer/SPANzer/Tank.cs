@@ -51,9 +51,7 @@ namespace SPANzer
 
 		public void DrawTank(Graphics e)
 		{
-			//e.DrawImage(this.img, this.tankCo.X, this.tankCo.Y, imgSize, imgSize);
 			e.DrawImage(img, tankCo.X, tankCo.Y, imgSize, imgSize);
-			//e.DrawImage(img, tankCo.X + 100, tankCo.Y + 100, 32, 32);
 		}
 
 		public void MoveTank()
@@ -77,7 +75,7 @@ namespace SPANzer
 				Vy = (float)(moveSpeed * Math.Cos((angle * 0.0174532925)));
 			}
 
-			//get direction
+			//get direction for bullet
 			dX = (float)(Math.Sin((angle * 0.0174532925)));
 			dY = -(float)(Math.Cos((angle * 0.0174532925)));
 
@@ -85,6 +83,7 @@ namespace SPANzer
 			CollisionWithWalls();
 			CollisionWithTank();
 
+			//movin' rn
 			tankCo.X += Vx;
 			tankCo.Y += Vy;
 

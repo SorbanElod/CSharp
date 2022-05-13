@@ -12,6 +12,7 @@ namespace SPANzer
 
 		public void Build(string fileName)
 		{
+			//add screen borders
 			allWalls.Add(new Brick(LT, RT));
 			allWalls.Add(new Brick(RT, RB));
 			allWalls.Add(new Brick(LB, LT));
@@ -28,6 +29,7 @@ namespace SPANzer
 				{
 					str = f.ReadLine();
 				} while (str.Contains("#"));
+				//read the spawn coordinates
 				if(spawned == false)
 				{
 					string[] spNum = str.Split(' ');

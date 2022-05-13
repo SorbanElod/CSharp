@@ -10,7 +10,6 @@
 # MAX Y = 500
 # MIN Y = 5
 # Here Starts Your Custom Map
-# NoEscape # NoWhereToHide
 900 400
 50 50
 200 5 200 200

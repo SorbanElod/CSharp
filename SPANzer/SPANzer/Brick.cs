@@ -16,7 +16,7 @@ namespace SPANzer
 		private Color color;
 
 		public Brick(PointF wallStart, PointF wallEnd)
-		{
+		{	//swap start and end coordnates if necessary
 			if (wallStart.X > wallEnd.X || wallStart.Y > wallEnd.Y)
 			{
 				this.wallStart = wallEnd;
@@ -27,6 +27,7 @@ namespace SPANzer
 				this.wallStart = wallStart;
 				this.wallEnd = wallEnd;
 			}
+			//check if it's vertical
 			if (wallStart.X == wallEnd.X)
 			{
 				this.vertical = true; //aka. vertical

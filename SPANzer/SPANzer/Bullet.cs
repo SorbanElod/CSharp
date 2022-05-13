@@ -49,6 +49,7 @@ namespace SPANzer
 				AdvancedCollisionWithTank(b,GameWindow.t2);
 				b.center.X += b.vX;
 				b.center.Y += b.vY;
+				//fade effect
 				if (DateTime.Now - b.created >= b.lifeTime - TimeSpan.FromMilliseconds(150))
 				{
 					if (b.opacity + 15 <= 255) b.opacity += 15;
@@ -71,6 +72,7 @@ namespace SPANzer
 			{
 				if (w.vertical == false) //horizontal
 				{
+					//check if bullet can collide with wall's side
 					if (b.center.X >= w.wallStart.X && b.center.X <= w.wallEnd.X)
 					{
 						//collision with the wall above
@@ -136,6 +138,8 @@ namespace SPANzer
 		public void AdvancedCollisionWithTank(Ball b, Tank t)
 		{
 				//√[(x₂ - x₁)² + (y₂ - y₁)²]
+				//checs the distance between the target tank, and the selected ball
+				//if the distance is smaller than the hitbox radius, then the tank is hit
 			if(Math.Sqrt(Math.Pow((b.center.X - t.center.X), 2)+ Math.Pow((b.center.Y - t.center.Y), 2)) <= hitBoxRadius)
 			{
 				t.hit = true;
