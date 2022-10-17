@@ -8,3 +8,13 @@ I:\12A\C#REPO\12_Paint\12_Paint\obj\Debug\12_Paint.csproj.GenerateResource.cache
 I:\12A\C#REPO\12_Paint\12_Paint\obj\Debug\12_Paint.csproj.CoreCompileInputs.cache
 I:\12A\C#REPO\12_Paint\12_Paint\obj\Debug\12_Paint.exe
 I:\12A\C#REPO\12_Paint\12_Paint\obj\Debug\12_Paint.pdb
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\bin\Debug\12_Paint.exe.config
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\bin\Debug\12_Paint.exe
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\bin\Debug\12_Paint.pdb
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\obj\Debug\12_Paint.csprojAssemblyReference.cache
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\obj\Debug\_12_Paint.Form1.resources
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\obj\Debug\_12_Paint.Properties.Resources.resources
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\obj\Debug\12_Paint.csproj.GenerateResource.cache
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\obj\Debug\12_Paint.csproj.CoreCompileInputs.cache
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\obj\Debug\12_Paint.exe
+C:\vs projektek\tavalyi-sulivizsgak\12_Paint\12_Paint\obj\Debug\12_Paint.pdb

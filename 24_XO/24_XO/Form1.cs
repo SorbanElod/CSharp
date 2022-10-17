@@ -37,7 +37,7 @@ namespace _24_XO
 		private void ButtonClikked(object sender, EventArgs e)
 		{
 			clicks++;
-			Control send = (Control)sender;
+			Button send = (Button)sender; //ez igy mi? czerjak22 2022.okt.16 hajnali 1 kor.
 			i = int.Parse(send.Tag.ToString())/3;
 			j = int.Parse(send.Tag.ToString())%3;
 			if (player == true)
