@@ -1,5 +1,5 @@
 # CSharp
-XII. class c# program collection
+High school c# program collection
 
 Download the entire project folder, not just the .sln!
 
